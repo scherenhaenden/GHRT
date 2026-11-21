@@ -1,19 +1,19 @@
-# 01 — Postulados candidatos y jerarquía de evidencia
+# 01 — Candidate Postulates and Hierarchy of Evidence
 
-Los siguientes son **postulados que deben someterse a prueba**, no principios demostrados.
+The following are **postulates to be tested**, not proven principles.
 
-**P1 — Escalar covariante.** Existe al menos un campo escalar canónico χ compatible con invariancia difeomorfa y una formulación completa en marcos de Einstein/Jordan. Su presencia no se deduce de la teoría estándar.
+**P1 — Covariant scalar.** At least one canonical scalar field $\chi$ exists, compatible with diffeomorphism invariance and a complete formulation in Einstein/Jordan frames. Its existence is not deduced from the Standard Model.
 
-**P2 — Respuesta ambiental.** La materia acopla mediante una métrica conforme g̃_μν=A²(χ)g_μν; la fuerza fuente se relaciona con T^μ_μ. A altas densidades de materia no relativista puede operar un apantallamiento, si el potencial y las condiciones de contorno lo permiten.
+**P2 — Environmental response.** Matter couples through a conformal metric $\widetilde g_{\mu\nu} = A^2(\chi)g_{\mu\nu}$; the source force is related to $T^\mu{}_\mu$. At high densities of nonrelativistic matter, screening may operate if the potential and boundary conditions permit.
 
-**P3 — Significado físico del Higgs.** GHRT conservará un portal explícito Higgs–escalar y deberá justificar su dimensión, simetrías, restricciones y correcciones radiativas. Decir “Higgs” en el nombre no sustituye ese cálculo.
+**P3 — Physical role of the Higgs.** GHRT will retain an explicit Higgs–scalar portal and must justify its dimension, symmetries, constraints, and radiative corrections. Saying “Higgs” in the name does not substitute for that calculation.
 
-**P4 — Energía de vacío y expansión.** Toda propuesta de desgravitación debe especificar un operador covariante, causal y estable; no puede suprimir indistintamente toda energía constante y a la vez reclamar aceleración/inflación impulsada por vacío.
+**P4 — Vacuum energy and expansion.** Any degravitation proposal must specify a covariant, causal, and stable operator; it cannot indiscriminately suppress all constant energy while simultaneously claiming vacuum-driven acceleration/inflation.
 
-**P5 — Extensión de transiciones.** Un campo φ (posiblemente diferente de χ) puede poseer falsos y verdaderos vacíos separados por barrera, con nucleación calculable. No se postula que la expansión por sí sola acumule una tensión capaz de romper el espacio.
+**P5 — Transition extension.** A field $\varphi$ (possibly distinct from $\chi$) may possess false and true vacua separated by a barrier, with calculable nucleation. It is not postulated that expansion by itself accumulates a tension capable of rupturing space.
 
-**P6 — Regiones descendientes.** Algunas historias de burbujas podrían ser compatibles con cosmologías interiores calientes solo tras resolver geometría, energía, inflación, recalentamiento, bariogénesis y perturbaciones. No se postula que cada burbuja sea un nuevo universo.
+**P6 — Daughter regions.** Some bubble histories could be compatible with hot interior cosmologies only after resolving geometry, energy, inflation, reheating, baryogenesis, and perturbations. It is not postulated that every bubble is a new universe.
 
-**P7 — Continuidad de información (pregunta, no postulado físico).** La posibilidad de transmitir estados distinguibles al interior de una región hija debe investigarse sin presuponer un canal causal.
+**P7 — Information continuity (a question, not a physical postulate).** The possibility of transmitting distinguishable states into the interior of a daughter region must be investigated without presupposing a causal channel.
 
-Los puntos P1–P4 forman el núcleo histórico GHRT. P5–P7 pertenecen a GHRT-VPT o a preguntas de investigación de largo plazo, no a resultados establecidos.
+Items P1–P4 form the historical GHRT core. P5–P7 belong to GHRT-VPT or to long-term research questions, not to established results.

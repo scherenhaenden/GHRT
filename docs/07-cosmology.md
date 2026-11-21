@@ -1,26 +1,30 @@
-# 07 — Cosmología y expansión persistente
+# 07 — Cosmology and Persistent Expansion
 
-La aceleración cósmica estándar obedece ä/a=−(4πG/3)(ρ_tot+3p_tot) para densidades equivalentes en unidades c=1. Una energía de vacío aproximadamente constante con p≈−ρ puede acelerar la expansión si domina el balance; no aparece una “tensión acumulada” de expansión que necesariamente provoque rupturas.
+Standard cosmic acceleration obeys $\ddot a / a = -(4\pi G / 3)(\rho_{\rm tot} + 3p_{\rm tot})$ for equivalent densities in $c = 1$ units. Approximately constant vacuum energy with $p \approx -\rho$ can accelerate expansion if it dominates the energy budget; no accumulated “expansion tension” appears that necessarily causes spacetime ruptures.
 
-## Calibración de referencia, no predicción GHRT
+## Reference calibration, not a GHRT prediction
 
-ΛCDM ilustrativo: H_0=67.4 km/s/Mpc; Ω_m=0.315; Ω_Λ=0.685. H_0≈2.1843×10⁻¹⁸ s⁻¹; q_0≈−0.5275; z_acel≈(2Ω_Λ/Ω_m)^(1/3)−1≈0.632; H_∞≈1.8078×10⁻¹⁸ s⁻¹; u_Λ≈5.253×10⁻¹⁰ J/m³; escala E_Λ≈2.240 meV. Esas cifras se usan como referencia comparativa.
+Illustrative $\Lambda$CDM values: $H_0 = 67.4\text{ km/s/Mpc}$; $\Omega_m = 0.315$; $\Omega_\Lambda = 0.685$. $H_0 \approx 2.1843 \times 10^{-18}\text{ s}^{-1}$; $q_0 \approx -0.5275$; $z_{\rm accel} \approx (2\Omega_\Lambda/\Omega_m)^{1/3} - 1 \approx 0.632$; $H_\infty \approx 1.8078 \times 10^{-18}\text{ s}^{-1}$; $u_\Lambda \approx 5.253 \times 10^{-10}\text{ J/m}^3$; scale $E_\Lambda \approx 2.240\text{ meV}$. These figures are used as a comparative reference.
 
-## Fondo parental y regiones descendientes
+## Parent background and daughter regions
 
-Para de Sitter ideal, Γ constante por cuatro-volumen y paredes cercanas a velocidad de la luz:
+For ideal de Sitter, constant $\Gamma$ per four-volume and walls moving near the speed of light:
 
-ε=Γ/H⁴ en unidades naturales; ε=Γ c³/H⁴ si Γ se mide por volumen espacial y tiempo físicos.
-V_F(t)∝exp[(3−4πε/3)Ht] a tiempos asintóticos.
+$$
+\varepsilon = \frac{\Gamma}{H^4} \text{ in natural units}; \qquad \varepsilon = \frac{\Gamma c^3}{H^4} \text{ if } \Gamma \text{ is per physical spatial volume and time.}
+$$
+$$
+V_F(t) \propto \exp\left[\left(3 - \frac{4\pi\varepsilon}{3}\right)Ht\right] \text{ at asymptotic times.}
+$$
 
-En esta aproximación, el **volumen físico esperado** de falso vacío crece si ε<9/(4π)≈0.716. NO es un umbral universal de percolación para todos los modelos ni implica que un observador individual viva eternamente.
+In this approximation, the **expected physical volume** of false vacuum grows if $\varepsilon < 9/(4\pi) \approx 0.716$. This is **not** a universal percolation threshold for all models, nor does it imply that an individual observer lives eternally.
 
-La supervivencia de una línea de mundo no protegida tiene aproximadamente P(t)≈exp[−(4πε/3)Ht], con tiempo medio τ≈3/(4πεH). Con ε=0.001 y H=H_∞, τ≈4.18×10³ Gyr = 4.18×10¹² años.
+The survival probability of an unprotected worldline is approximately $P(t) \approx \exp[-(4\pi\varepsilon/3)Ht]$, with mean lifetime $\tau \approx 3/(4\pi\varepsilon H)$. With $\varepsilon = 0.001$ and $H = H_\infty$, $\tau \approx 4.18 \times 10^3\text{ Gyr} = 4.18 \times 10^{12}\text{ yr}$.
 
-## Historias de Big Bang locales
+## Local Big Bang histories
 
-Una burbuja de menor vacío dentro de un fondo inflacionario (decaimiento) y una burbuja interior de mayor falso vacío capaz de inflar como universo hijo (creación en laboratorio) no son automáticamente el mismo mecanismo. Para una historia caliente se necesita evolución geométrica interior, energía suficiente, recalentamiento y mecanismos para perturbaciones y bariogénesis.
+A lower-vacuum bubble inside an inflationary background (decay) and an interior higher-false-vacuum bubble capable of inflating as a daughter universe (laboratory creation) are not automatically the same mechanism. A hot history requires interior geometric evolution, sufficient energy, reheating, and mechanisms for perturbations and baryogenesis.
 
-## Condición de eternidad
+## Eternity condition
 
-Inflación futura persistente ≠ Steady State de Hoyle-Bondi-Gold ≠ geodésicamente completo hacia el pasado. Bajo sus hipótesis, Borde–Guth–Vilenkin muestra incompletitud pasada de espacios inflacionarios.
+Persistent future inflation $\neq$ Hoyle–Bondi–Gold Steady State $\neq$ past geodesic completeness. Under its hypotheses, Borde–Guth–Vilenkin proves past incompleteness of inflating spacetimes.

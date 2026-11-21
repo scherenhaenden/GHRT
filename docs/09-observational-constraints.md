@@ -1,17 +1,17 @@
-# 09 — Restricciones observacionales
+# 09 — Observational Constraints
 
-**Ninguna región de parámetros GHRT ha pasado todavía todas estas pruebas conjuntamente.**
+**No GHRT parameter region has yet passed all of these tests jointly.**
 
-Cosmología: H(z), supernovas Ia, BAO, anisotropías CMB (espectro primario y lente), nucleosíntesis primordial, crecimiento fσ8 y lensing; perturbaciones escalares, tensores y estabilidad. Todo ajuste debe comparar con ΛCDM de referencia bajo supuestos equivalentes.
+Cosmology: $H(z)$, Type Ia supernovae, BAO, CMB anisotropies (primary spectrum and lensing), primordial nucleosynthesis (BBN), growth $f\sigma_8$ and weak lensing; scalar/tensor perturbations and stability. Any fit must compare against reference $\Lambda$CDM under equivalent assumptions.
 
-Gravedad: sistema solar, principio de equivalencia, variación de constantes, propagación de ondas gravitacionales, quinta fuerza y experimentos de laboratorio; implementar screening ambiental con geometrías explícitas.
+Gravity: Solar System tests, equivalence principle, variation of fundamental constants, gravitational-wave propagation, fifth-force searches, and laboratory experiments; implement environmental screening with explicit geometries.
 
-Partículas: acoplamientos Higgs, anchuras y canales invisibles, mezcla escalar, colisionadores, EDM para CP violación adicional; correcciones radiativas y validez EFT.
+Particle physics: Higgs couplings, widths and invisible channels, scalar mixing, collider bounds, EDM bounds for additional CP violation; radiative corrections and EFT validity.
 
-VPT: tasa gravitatoria de nucleación, vida media del falso vacío, evolución de pared, colisiones, estructura interior, firma gravitacional si existen transiciones accesibles, y consistencia con historia térmica temprana.
+VPT: gravitational nucleation rate, false-vacuum lifetime, wall evolution, bubble collisions, interior structure, gravitational-wave signatures if accessible transitions exist, and consistency with early thermal history.
 
-Recalentamiento: el estudio Barbieri et al. 2025, doi:10.1103/j5rj-dz1k, obtiene T_RH>5.96 MeV (95% CL) en las clases de modelos analizados. No tratarlo como límite universal independiente del modelo.
+Reheating: Barbieri et al. (2025), https://doi.org/10.1103/j5rj-dz1k, obtain $T_{\rm RH} > 5.96\text{ MeV}$ (95% CL) in the model classes analyzed. Do not treat this as a model-independent universal bound.
 
-La temperatura Gibbons–Hawking de de Sitter asociada a H_∞ del benchmark es ≈2.20×10⁻³⁰ K; no sustituye un análisis general de termodinámica ni de computación reversible.
+The de Sitter Gibbons–Hawking temperature associated with $H_\infty$ in the benchmark is $\approx 2.20 \times 10^{-30}\text{ K}$; it does not substitute for a general analysis of thermodynamics or reversible computation.
 
-Documentar límites numéricos, unidades, rango de confianza, fecha de las observaciones y procedencia. No convertir las estimaciones subjetivas de las antiguas matrices de 50 problemas en probabilidades científicas.
+Document numerical bounds, units, confidence intervals, observation dates, and provenance. Do not convert the subjective estimates of the older 50-problem matrices into scientific probabilities.

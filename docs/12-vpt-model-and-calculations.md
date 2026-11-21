@@ -1,123 +1,148 @@
-# 12 — GHRT-VPT: modelo de transición, cálculos y distinción entre burbujas y universos
+# 12 — GHRT-VPT: Transition Model, Calculations, and Bubbles vs. Universes
 
-**Fecha:** 2026-11-21. **Estado:** modelo de juguete matemático; no representa una transición real observada ni una tecnología viable.
+**Date:** 2026-11-21. **Status:** mathematical toy model; does not represent an observed physical transition or a viable technology.
 
-## 1. De dónde surge
+## 1. Origin of the idea
 
-Hipótesis original del autor: un fondo cósmico expansivo persistente podría originar fluctuaciones/transiciones de vacío que den lugar a historias locales tipo Big Bang, sin que todo el espacio parental deje de existir. La expansión acelerada en sí misma no es una “tensión” acumulativa que necesariamente se rompa. Debe existir un potencial con estados diferentes, una transición dinámica y una solución gravitatoria coherente. El antecedente más cercano es la inflación eterna de falso vacío, no el Steady State clásico.
+Author's original hypothesis: a persistent expanding cosmic background might give rise to vacuum fluctuations/transitions producing local Big Bang-like histories without the entire parent space ceasing to exist. Accelerated expansion by itself is not a cumulative “tension” that necessarily ruptures spacetime. There must exist a potential with distinct states, a dynamical transition, and a consistent gravitational solution. The closest precedent is false-vacuum eternal inflation, not the classical Steady State model.
 
-El potencial symmetron cuadrático-cuártico de GHRT anterior ofrece una transición continua, no un estado falso separado por barrera. Para estudiar nucleación de primer orden se define un potencial distinto.
+The earlier quadratic-quartic symmetron potential of GHRT yields a continuous transition, not a false state separated by a barrier. To study first-order nucleation, a different potential is defined.
 
-## 2. Potencial de sexto orden y mínimos
+## 2. Sixth-order potential and minima
 
-En unidades naturales ℏ=c=1, un escalar canónico χ, y=χ/f:
+In natural units $\hbar = c = 1$, for a canonical scalar $\chi$ with $y = \chi/f$:
 
-U_eff(y;ρ_*) = U_0 + E_*⁴ [a(ρ_*)y²/2 − y⁴/4 + y⁶/6],
-a(ρ_*) = a_0 + ρ_* f²/(M²E_*⁴).
+$$
+U_{\rm eff}(y;\rho_*) = U_0 + E_*^4 \left[a(\rho_*)\frac{y^2}{2} - \frac{y^4}{4} + \frac{y^6}{6}\right], \qquad a(\rho_*) = a_0 + \frac{\rho_* f^2}{M^2 E_*^4}.
+$$
 
-Aquí ρ_* representa la densidad auxiliar de **materia no relativista** usada en el potencial efectivo; es incorrecto sustituir sin más por toda la densidad de radiación.
+Here $\rho_*$ represents the auxiliary density of **nonrelativistic matter** used in the effective potential; it is incorrect to substitute total radiation density without qualification.
 
-W(y)=ay²/2−y⁴/4+y⁶/6; W'(y)=y(a−y²+y⁴).
-Los extremos no triviales satisfacen y²_±=[1±√(1−4a)]/2 cuando 0≤a≤1/4.
+Define $W(y) = a y^2/2 - y^4/4 + y^6/6$, so $W'(y) = y(a - y^2 + y^4)$.
+The nontrivial extrema satisfy $y_\pm^2 = [1 \pm \sqrt{1 - 4a}]/2$ when $0 \le a \le 1/4$.
 
-Si 0<a<3/16, y=0 es falso mínimo metastable, y_− barrera y y_+ mínimo verdadero. A a=3/16 hay degeneración energética entre y=0 y y_+; a→0 hace que y=0 pierda estabilidad local. Si 3/16<a<1/4, los dos mínimos pueden coexistir con origen como mínimo más profundo, pero ya no se está describiendo la misma dirección favorable de decaimiento.
+If $0 < a < 3/16$, $y = 0$ is a metastable false minimum, $y_-$ is the barrier peak, and $y_+$ is the true minimum. At $a = 3/16$, $y = 0$ and $y_+$ are degenerate in energy; $a \to 0$ causes $y = 0$ to lose local stability. If $3/16 < a < 1/4$, both minima can coexist with the origin as the deeper minimum, which no longer describes the same favorable decay direction.
 
-Benchmark no ajustado a datos: a=0.180;
-y_−=0.48520600665;
-y_+=0.87439986911;
-W(y_−)=+0.00950675306;
-W(y_+)=−0.002840086392;
-ΔU=0.002840086392 E_*⁴.
+Benchmark (not fitted to data): $a = 0.180$;
+$y_- = 0.48520600665$;
+$y_+ = 0.87439986911$;
+$W(y_-) = +0.00950675306$;
+$W(y_+) = -0.002840086392$;
+$\Delta U = 0.002840086392\,E_*^4$.
 
-Estos números prueban sólo la estructura del potencial.
+These numbers verify only the algebraic structure of the potential.
 
-## 3. Túnel cuántico y sus límites
+## 3. Quantum tunneling and its limits
 
-Γ≈𝒜e^(−B), donde B=S_E[bounce]−S_E[falso] y 𝒜 es prefactor de fluctuaciones por cuatro-volumen.
+$\Gamma \approx \mathcal{A}\,e^{-B}$, where $B = S_E[\text{bounce}] - S_E[\text{false}]$ and $\mathcal{A}$ is the fluctuation prefactor per four-volume.
 
-En la **aproximación plana, pared delgada**:
-B_flat≈27π²σ⁴/(2ΔU³);
-R_flat≈3σ/ΔU.
+In the **flat-space, thin-wall approximation**:
 
-Para a=3/16 la tensión entre estados degenerados es σ=9 f E_*²/(64√3)=0.0811898816 f E_*².
-Si esta tensión degenerada se utiliza como aproximación en a=0.180,
-B_flat≈252724.00372 (f/E_*)⁴.
+$$
+B_{\rm flat} \approx \frac{27\pi^2\sigma^4}{2\Delta U^3}; \qquad R_{\rm flat} \approx \frac{3\sigma}{\Delta U}.
+$$
 
-La pared delgada y espacio plano pueden fallar cuando la barrera no es muy alta respecto de ΔU, cuando hay gravedad, cuando R se acerca al radio de Hubble y con efectos térmicos; todos los resultados precedentes están sujetos a esas advertencias.
+For $a = 3/16$, the wall tension between degenerate states is $\sigma = \frac{9}{64\sqrt{3}}\,f E_*^2 = 0.0811898816\,f E_*^2$.
+Using this degenerate tension as an approximation at $a = 0.180$ gives:
 
-## 4. Ejemplo numérico con la escala de energía oscura actual
+$$
+B_{\rm flat} \approx 252724.00372\left(\frac{f}{E_*}\right)^4.
+$$
 
-Parámetros ΛCDM de referencia: H_0=67.4 km/s/Mpc, Ω_m=0.315, Ω_Λ=0.685:
-H_0≈2.1843×10⁻¹⁸ s⁻¹; H_∞≈1.8078×10⁻¹⁸ s⁻¹;
-u_Λ≈5.2532×10⁻¹⁰ J/m³; E_*=(u_Λ ℏ³c³)^(1/4)≈2.240365 meV.
+The thin-wall and flat-space approximations can break down when the barrier is not high compared to $\Delta U$, when gravity is included, when $R$ approaches the Hubble radius, and when thermal effects are present; all preceding results are subject to these caveats.
 
-Si se **elige** una tasa objetivo ε=Γ/H⁴=0.001 y se **supone** el prefactor 𝒜≈E_*⁴, la acción requerida resulta:
-B_obj≈4 ln(E_*/(ℏH_∞))−ln(ε)≈285.749.
+## 4. Numerical example at the present dark-energy scale
 
-Resolver B_flat=B_obj produce f/E_*≈0.18337, f≈0.410822 meV y R_flat≈1.385 mm. Es un **ejemplo invertido/calibrado**: la tasa fue ingresada como condición, NO fue predicha por la teoría.
+Reference $\Lambda$CDM parameters: $H_0 = 67.4\text{ km/s/Mpc}$, $\Omega_m = 0.315$, $\Omega_\Lambda = 0.685$:
+$H_0 \approx 2.1843 \times 10^{-18}\text{ s}^{-1}$; $H_\infty \approx 1.8078 \times 10^{-18}\text{ s}^{-1}$;
+$u_\Lambda \approx 5.2532 \times 10^{-10}\text{ J/m}^3$; $E_* = (u_\Lambda \hbar^3 c^3)^{1/4} \approx 2.240365\text{ meV}$.
 
-La masa local del escalar en y=0 es m_χ=√a E_*²/f≈5.183×10⁻³ eV. En contraste, ℏH_∞≈1.190×10⁻³³ eV; su cociente ≈4.36×10³⁰. La elección que facilita la nucleación del ejemplo no es un campo que evolucione lentamente a escala de Hubble. Esto no demuestra que una masa pesada en un falso vacío no pueda sostener energía de vacío, pero sí impide reclamar ambas dinámicas lentas y rápidas para **el mismo campo en el mismo ejemplo**.
+If one **chooses** a target rate $\varepsilon = \Gamma/H^4 = 0.001$ and **assumes** prefactor $\mathcal{A} \approx E_*^4$, the required bounce action is:
 
-Si se toma f~M_Pl,reducida≈2.435×10²⁷ eV manteniendo la escala meV, el valor FORMAL B_flat~3.5×10¹²⁵ implica una supresión extrema en la fórmula plana, pero el radio resultante sobrepasa el horizonte y esa fórmula ya no es una predicción física fiable. Se necesitan bounces gravitatorios completos.
+$$
+B_{\rm obj} \approx 4\ln\!\left(\frac{E_*}{\hbar H_\infty}\right) - \ln(\varepsilon) \approx 285.749.
+$$
 
-## 5. Sensibilidad ambiental y quinta fuerza
+Solving $B_{\rm flat} = B_{\rm obj}$ yields $f/E_* \approx 0.18337$, $f \approx 0.410822\text{ meV}$, and $R_{\rm flat} \approx 1.385\text{ mm}$. This is an **inverted/calibrated example**: the rate was entered as a target condition, **not** predicted by the theory.
 
-Para los mismos f y E_*, al exigir una modificación Δa=0.01 por densidad de materia cosmológica promedio, ρ_m/E_*⁴≈Ω_m/Ω_Λ≈0.459854,
-M=f√[(ρ_m/E_*⁴)/Δa]≈2.79 meV.
+The local scalar mass at $y = 0$ is $m_\chi = \sqrt{a}\,E_*^2/f \approx 5.183 \times 10^{-3}\text{ eV}$. By contrast, $\hbar H_\infty \approx 1.190 \times 10^{-33}\text{ eV}$; their ratio is $\approx 4.36 \times 10^{30}$. The parameter choice that facilitates nucleation in this example is not a field that slow-rolls on Hubble scales. This does not prove that a heavy field trapped in a false vacuum cannot sustain vacuum energy, but it prevents claiming both slow-roll and rapid-nucleation dynamics for **the same field in the same example**.
 
-Con A=exp[χ²/(2M²)] y χ=f y_+,
-β=M_Pl d lnA/dχ=M_Plχ/M²≈1.13×10²⁹.
+If one takes $f \sim M_{\rm Pl,reduced} \approx 2.435 \times 10^{27}\text{ eV}$ while keeping the $\text{meV}$ scale, the formal value $B_{\rm flat} \sim 3.5 \times 10^{125}$ implies extreme suppression in the flat formula, while the resulting radius exceeds the horizon and the flat formula is no longer a reliable physical prediction. Full gravitational bounces are required.
 
-Este gran acoplamiento requiere un estudio extraordinariamente exigente del screening y las restricciones. Si M=M_Pl, la misma corrección es Δa≈1.31×10⁻⁶² y la manipulación ambiental por densidades promedio es insignificante.
+## 5. Environmental sensitivity and fifth force
 
-El signo importa: a crece al **incrementar** ρ_* si M²>0; vaciar una zona disminuye a y puede acercarla a la inestabilidad; concentrar materia no produce automáticamente el mismo resultado. Para a→0 desaparece la estabilidad local, por lo que la evolución puede ser **clásica**, no una fluctuación de túnel. Cavidades finitas necesitan resolver ∇²χ=∂U_eff/∂χ, energía de gradiente, tamaño crítico y contornos.
+For the same $f$ and $E_*$, requiring a shift $\Delta a = 0.01$ at mean cosmological matter density $\rho_m / E_*^4 \approx \Omega_m / \Omega_\Lambda \approx 0.459854$ gives:
 
-## 6. Persistencia del fondo
+$$
+M = f\sqrt{\frac{\rho_m / E_*^4}{\Delta a}} \approx 2.79\text{ meV}.
+$$
 
-En de Sitter ideal con tasa Γ constante y burbujas ultrarrelativistas, ε=Γ/H⁴ en unidades naturales, y en aproximación asintótica:
+With $A = \exp[\chi^2/(2M^2)]$ and $\chi = f y_+$,
 
-V_falso(t)∝exp[(3−4πε/3)Ht].
-Se obtiene volumen físico esperado creciente si ε<9/(4π)≈0.716. **Esto no es un umbral universal de percolación** ni demuestra que un observador individual sobreviva.
+$$
+\beta = M_{\rm Pl}\frac{d\ln A}{d\chi} = \frac{M_{\rm Pl}\chi}{M^2} \approx 1.13 \times 10^{29}.
+$$
 
-P_una_línea(t)≈exp[−(4πε/3)Ht] y τ≈3/(4πεH).
-Con ε=0.001 y H=H_∞, τ≈4.18×10¹² años; P(100×10¹² años)≈4.18×10⁻¹¹. El volumen global puede aumentar mientras la probabilidad de supervivencia de una línea de mundo fija tiende a cero.
+Such a large coupling requires an extraordinarily stringent study of screening and experimental bounds. If $M = M_{\rm Pl}$, the same shift is $\Delta a \approx 1.31 \times 10^{-62}$, and environmental control via mean densities is negligible.
 
-La futura eternidad inflacionaria no implica completitud pasada (Borde–Guth–Vilenkin bajo sus hipótesis).
+Sign matters: $a$ grows when $\rho_*$ **increases** if $M^2 > 0$; emptying a region lowers $a$ and can push it toward instability, whereas concentrating matter does not automatically produce the same result. As $a \to 0$, local stability disappears, so evolution can be **classical**, not a tunneling fluctuation. Finite cavities require solving $\nabla^2\chi = \partial U_{\rm eff}/\partial\chi$ with gradient energy, critical size, and boundary conditions.
 
-## 7. Frialdad de una burbuja de energía oscura
+## 6. Persistence of the background
 
-Densidad térmica u_rad=(π²/30)g_* T⁴ en unidades naturales; eficiencia térmica 0≤ξ≤1:
+In ideal de Sitter space with constant rate $\Gamma$ and ultrarelativistic bubble walls, $\varepsilon = \Gamma/H^4$ in natural units, and in the asymptotic approximation:
 
-T_RH=[30 ξ ΔU/(π²g_*)]^(1/4).
+$$
+V_{\rm false}(t) \propto \exp\left[\left(3 - \frac{4\pi\varepsilon}{3}\right)Ht\right].
+$$
 
-Con g_*=2 para fotones y ξ=1:
-toda u_Λ→T≈28.866 K;
-ΔU=0.002840086u_Λ→T≈6.664 K.
+Expected physical false-vacuum volume grows if $\varepsilon < 9/(4\pi) \approx 0.716$. **This is not a universal percolation threshold**, nor does it prove that an individual observer survives.
 
-Una historia de BBN requiere temperaturas de recalentamiento de orden MeV. Barbieri et al. (2025) da T_RH>5.96 MeV (95%) para los escenarios estudiados. Para g_*=10.75, u_rad/u_Λ≈1.771×10³⁸. La energía oscura de hoy no alimenta por sí sola el Big Bang caliente necesario.
+$$
+P_{\rm worldline}(t) \approx \exp\!\left(-\frac{4\pi\varepsilon}{3}Ht\right), \qquad \tau \approx \frac{3}{4\pi\varepsilon H}.
+$$
 
-Ejemplo ALTERNATIVO, no solución: falso vacío de alta energía V_F~(10¹⁵ GeV)⁴; H_F≈2.37×10¹¹ GeV≈3.60×10³⁵ s⁻¹ y T_max≈4.18×10¹⁴ GeV con g_*=100 y termalización completa. Deben especificarse la fuente de ese estado, geometría, inflación interior, recalentamiento y conservación de energía.
+With $\varepsilon = 0.001$ and $H = H_\infty$, $\tau \approx 4.18 \times 10^{12}\text{ yr}$; $P(100 \times 10^{12}\text{ yr}) \approx 4.18 \times 10^{-11}$. Global volume can grow while the survival probability of any fixed worldline tends to zero.
 
-## 8. Dos problemas distintos: decaimiento vs fabricación de un universo
+Future eternal inflation does not imply past geodesic completeness (Borde–Guth–Vilenkin under its hypotheses).
 
-(A) Fondo de falso vacío de mayor energía nuclea región de **menor energía**. Puede ser compatible con cosmología tipo burbuja en modelos inflacionarios, dependiendo de la evolución interior.
+## 7. Coldness of a dark-energy bubble
 
-(B) Civilización en una región de baja energía pretende crear un bolsillo de **mayor energía inflacionaria** que crezca como universo descendiente. Tiene obstáculos gravitatorios diferentes y fue investigado como hipótesis por Farhi, Guth y Guven; no es consecuencia automática de (A).
+Thermal energy density $u_{\rm rad} = (\pi^2/30) g_* T^4$ in natural units; thermalization efficiency $0 \le \xi \le 1$:
 
-No es correcto identificar automáticamente formación de burbuja, Big Bang caliente y creación de espacio-tiempo independiente. Tampoco la existencia de un agujero negro externo implica por sí sola supervivencia o transferencia causal de memoria a una región hija. El significado y observabilidad de “universo descendiente” necesitan definirse geometrícamente.
+$$
+T_{\rm RH} = \left(\frac{30\,\xi\,\Delta U}{\pi^2 g_*}\right)^{1/4}.
+$$
 
-## 9. Arquitectura alternativa con dos campos
+With $g_* = 2$ for photons and $\xi = 1$:
+- all of $u_\Lambda \to T \approx 28.866\text{ K}$;
+- $\Delta U = 0.002840086\,u_\Lambda \to T \approx 6.664\text{ K}$.
 
-Para no imponer al mismo χ una masa de meV y 10⁻³³ eV, investigar χ (sector cosmológico ambiental) y φ (transición de vacío alta energía), conectados a Higgs y quizá CP con operadores bien especificados:
+A BBN history requires MeV-scale reheating temperatures. Barbieri et al. (2025) find $T_{\rm RH} > 5.96\text{ MeV}$ (95% CL) for the studied scenarios. For $g_* = 10.75$, $u_{\rm rad}/u_\Lambda \approx 1.771 \times 10^{38}$. Present dark energy alone cannot power the required hot Big Bang.
 
-S=∫√−g [M_Pl²R/2−(∂χ)²/2−(∂φ)²/2−U_DE(χ)−V_PT(φ,χ)+L_portal+L_CP]+S_m[A²(χ)g,ψ].
+ALTERNATIVE example, not a solution: a high-energy false vacuum $V_F \sim (10^{15}\text{ GeV})^4$; $H_F \approx 2.37 \times 10^{11}\text{ GeV} \approx 3.60 \times 10^{35}\text{ s}^{-1}$ and $T_{\rm max} \approx 4.18 \times 10^{14}\text{ GeV}$ with $g_* = 100$ and complete thermalization. The source of such a state, geometry, interior inflation, reheating, and energy conservation must all be specified.
 
-Ejemplo V_PT=V_F+E_F⁴[a(χ)(φ/F)²/2−(φ/F)⁴/4+(φ/F)⁶/6].
+## 8. Two distinct problems: decay vs. manufacturing a universe
 
-No se han calculado bounces Coleman–De Luccia, espectro de fluctuaciones, ni efectos radiativos de esta acción. Desgravitar exactamente todo vacío constante también apagaría la expansión de de Sitter: conflicto sin resolver.
+(A) A higher-energy false-vacuum background nucleates a **lower-energy** region. This can be compatible with bubble-type cosmology in inflationary models, depending on interior evolution.
 
-## 10. Trabajo por realizar
+(B) A civilization in a low-energy region attempts to create a pocket of **higher inflationary energy** that grows into a daughter universe. This faces different gravitational obstacles and was investigated hypothetically by Farhi, Guth, and Guven; it is not an automatic consequence of (A).
 
-Definir sectores y evitar doble conteo Higgs; derivar el potencial efectivo finito-T; hallar soluciones euclidianas O(4) con gravedad y acción completa; continuar a tiempo lorentziano; resolver FRW interior, recalentamiento, bariogénesis y perturbaciones; confrontar CMB/BAO/BBN, quinta fuerza y pruebas de Higgs; evaluar entropía/horizontes. Sólo entonces estimar qué clase de región física puede formarse.
+It is incorrect to automatically equate bubble formation, a hot Big Bang, and creation of an independent spacetime. Nor does the external existence of a black hole by itself imply survival or causal memory transfer into a daughter region. The meaning and observability of a “daughter universe” must be defined geometrically.
 
-**Referencias:** Coleman–De Luccia 1980; Farhi–Guth 1987; Farhi–Guth–Guven 1990; Borde–Guth–Vilenkin 2003; Planck 2018/2020; Barbieri et al. 2025. Enlaces en papers/literature-review.md.
+## 9. Alternative two-field architecture
+
+To avoid forcing the same $\chi$ to have both $\text{meV}$ and $10^{-33}\text{ eV}$ mass scales, investigate $\chi$ (environmental cosmological sector) and $\varphi$ (high-energy vacuum transition), connected to the Higgs and possibly CP with well-specified operators:
+
+$$
+S = \int d^4x\,\sqrt{-g}\left[\frac{M_{\rm Pl}^2}{2}R - \frac{1}{2}(\partial\chi)^2 - \frac{1}{2}(\partial\varphi)^2 - U_{\rm DE}(\chi) - V_{\rm PT}(\varphi,\chi) + \mathcal{L}_{\rm portal} + \mathcal{L}_{\rm CP}\right] + S_m[A^2(\chi)g,\psi].
+$$
+
+Example: $V_{\rm PT} = V_F + E_F^4\left[a(\chi)(\varphi/F)^2/2 - (\varphi/F)^4/4 + (\varphi/F)^6/6\right]$.
+
+No Coleman–De Luccia bounces, fluctuation spectra, or radiative effects have been computed for this action. Exactly degravitating all constant vacuum energy would also shut off de Sitter expansion: an unresolved conflict.
+
+## 10. Work to be done
+
+Define sectors and avoid Higgs double-counting; derive the finite-$T$ effective potential; find $O(4)$ Euclidean solutions with gravity and full action; continue to Lorentzian signature; solve interior FRW, reheating, baryogenesis, and perturbations; confront CMB/BAO/BBN, fifth-force, and Higgs tests; evaluate entropy/horizons. Only then estimate what kind of physical region can form.
+
+**References:** Coleman–De Luccia 1980; Farhi–Guth 1987; Farhi–Guth–Guven 1990; Borde–Guth–Vilenkin 2003; Planck 2018/2020; Barbieri et al. 2025. Links in `papers/literature-review.md`.

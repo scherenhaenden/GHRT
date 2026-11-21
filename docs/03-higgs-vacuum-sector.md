@@ -1,21 +1,21 @@
-# 03 — Sector Higgs, vacío y estabilidad
+# 03 — Higgs Sector, Vacuum, and Stability
 
-## Portal y dimensiones
+## Portal and dimensions
 
-Un portal renormalizable típico para escalares reales es L_portal = −(λ_Hχ/2)(H†H)χ², con λ_Hχ adimensional. Otro ejemplo exploratorio previo era V_Hχ=ε_H(H†H)[1−cos(χ/f)], donde ε_H tiene **dimensión masa²**. No intercambiar ambos coeficientes.
+A typical renormalizable portal for real scalars is $\mathcal{L}_{\rm portal} = -(\lambda_{H\chi}/2)(H^\dagger H)\chi^2$, with dimensionless $\lambda_{H\chi}$. Another prior exploratory example was $V_{H\chi} = \varepsilon_H (H^\dagger H)[1 - \cos(\chi/f)]$, where $\varepsilon_H$ has **dimension mass²**. Do not interchange the two coefficients.
 
-Tras ruptura electrodébil, H†H≈v²/2, los portales modifican la curvatura del potencial escalar; correcciones radiativas y mezcla deben calcularse. Una escala ultraligera m_χ~ℏH_0~10⁻³³ eV frente a m_H≈125 GeV implica una jerarquía de ~10⁴⁴ en masas y exige protección o ajuste finísimo. Un mecanismo de simetría aproximada es candidato, no solución automática.
+After electroweak symmetry breaking, $H^\dagger H \approx v^2/2$, portals modify the curvature of the scalar potential; radiative corrections and mixing must be calculated. An ultralight scale $m_\chi \sim \hbar H_0 \sim 10^{-33}\text{ eV}$ versus $m_H \approx 125\text{ GeV}$ implies a mass hierarchy of $\sim 10^{44}$ and requires protection or extreme fine-tuning. An approximate-symmetry mechanism is a candidate, not an automatic solution.
 
-## Violación CP y bariogénesis
+## CP violation and baryogenesis
 
-El portal real (H†H)F(χ) con coeficientes reales y F escalar CP-par **no introduce violación CP por sí solo**. Por tanto, no puede afirmarse que su pared de burbuja filtre materia contra antimateria sin definir operadores CP-impares y mecanismos cinéticos.
+A real portal $(H^\dagger H)F(\chi)$ with real coefficients and a CP-even scalar $F$ **does not introduce CP violation by itself**. Therefore, one cannot claim that its bubble wall filters matter against antimatter without defining CP-odd operators and kinetic mechanisms.
 
-Una extensión EFT ejemplar: (c_CP/Λ_CP²)(H†H) W^a_μν W̃^{a μν}; su presencia no garantiza generación de η_B y debe respetar restricciones de EDM y colisionadores. Sakharov exige violación de B, de C/CP y salida del equilibrio para generación dinámica desde un estado inicialmente simétrico (salvo hipótesis alternativas explícitas).
+An exemplary EFT extension is $(c_{\rm CP}/\Lambda_{\rm CP}^2)(H^\dagger H) W^a_{\mu\nu}\widetilde W^{a\,\mu\nu}$; its presence does not guarantee generation of $\eta_B$ and must respect EDM and collider constraints. Sakharov's conditions require B violation, C/CP violation, and departure from thermal equilibrium for dynamical generation from an initially symmetric state (absent explicit alternative hypotheses).
 
-## Materia y antimateria
+## Matter and antimatter
 
-El exceso observado de bariones por fotón es η_B≈6×10⁻¹⁰. Recalentamiento y producción de pares no bastan para obtenerlo. Pueden estudiarse leptogénesis, bariogénesis electrodébil o nuevas interacciones, pero no atribuir automáticamente el fenómeno al mismo campo que nuclea la región hija. Dominios de antimateria, paredes topológicas y variaciones de fase CP son conceptos distintos; uno no implica forzosamente los otros.
+The observed baryon-to-photon ratio is $\eta_B \approx 6 \times 10^{-10}$. Reheating and pair production are not sufficient to obtain it. Leptogenesis, electroweak baryogenesis, or new interactions may be studied, but one must not automatically attribute the phenomenon to the same field that nucleates the daughter region. Antimatter domains, topological walls, and CP-phase variations are distinct concepts; one does not necessarily imply the others.
 
-## Problema fundamental
+## Fundamental problem
 
-Si se consigue un mecanismo de degravitación, distinguir entre término constante de vacío y diferencias de energía físicamente gravitantes sigue siendo obligatorio. Una transición con ΔV no resuelve el problema de la constante cosmológica.
+Even if a degravitation mechanism is achieved, distinguishing between a constant vacuum term and physically gravitating energy differences remains mandatory. A transition with $\Delta V$ does not solve the cosmological-constant problem.

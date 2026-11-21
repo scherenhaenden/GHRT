@@ -1,10 +1,14 @@
-# 08 — Tiempo propio, frecuencia de Compton y fase
+# 08 — Proper Time, Compton Frequency, and Phase
 
-Una intuición histórica de GHRT conecta tiempo, fase de materia y respuesta del medio escalar. Como fórmula de referencia de mecánica cuántica relativista para una partícula idealizada:
+A historical GHRT intuition connects time, matter phase, and scalar-medium response. As a reference relativistic quantum-mechanics formula for an idealized particle:
 
-dφ = −mc² dτ/ℏ, donde τ es tiempo propio;
-ω_C=mc²/ℏ es una frecuencia positiva convencional asociada a la masa.
+$$
+d\phi = -\frac{mc^2}{\hbar}\,d\tau, \quad \text{where } \tau \text{ is proper time;}
+$$
+$$
+\omega_C = \frac{mc^2}{\hbar} \quad \text{is a conventional positive frequency associated with mass.}
+$$
 
-Estas ecuaciones no implican por sí mismas granularidad del tiempo ni un campo nuevo. Para proponer una relación física GHRT entre χ, relojes y fase, debe especificarse una acción de materia y derivarse cómo cambia la señal de relojes concretos en un ambiente χ(x), manteniendo invariancia local y compatibilidad con pruebas de relatividad.
+These equations do not by themselves imply granularity of time or a new field. To propose a physical GHRT relation between $\chi$, clocks, and phase, one must specify a matter action and derive how the signal of concrete clocks changes in a $\chi(x)$ background, preserving local Lorentz invariance and compatibility with relativity tests.
 
-Preguntas abiertas: ¿afecta χ a masas, constantes o únicamente a la métrica conforme? ¿En qué marco se definen relojes atómicos? ¿Se conserva equivalencia local? ¿Qué observable distinguiría la predicción del corrimiento gravitatorio estándar? No reemplazar ecuaciones consolidadas por metáforas de “tiempo granular”.
+Open questions: does $\chi$ affect masses, constants, or only the conformal metric? In which frame are atomic clocks defined? Is local equivalence preserved? What observable would distinguish the prediction from standard gravitational redshift? Do not replace established equations with “granular time” metaphors.

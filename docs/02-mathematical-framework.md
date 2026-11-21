@@ -1,46 +1,58 @@
-# 02 — Marco matemático mínimo
+# 02 — Minimal Mathematical Framework
 
-Convenciones: c=ℏ=1 salvo indicación explícita, firma (-,+,+,+), M_Pl masa de Planck **reducida**. g_μν es la métrica de Einstein; g̃_μν=A²(χ)g_μν es la de Jordan.
+Conventions: $c = \hbar = 1$ unless explicitly stated, signature $(-,+,+,+)$, $M_{\rm Pl}$ is the **reduced** Planck mass. $g_{\mu\nu}$ is the Einstein-frame metric; $\widetilde g_{\mu\nu} = A^2(\chi)g_{\mu\nu}$ is the Jordan-frame metric.
 
-## Acción candidata monoescalar
+## Single-scalar candidate action
 
-S = ∫d⁴x √(-g) [ M_Pl² R/2 − (∂χ)²/2 − U(χ) + L_SM(g,H,...) ] + S_m[A²(χ)g,ψ].
+$$
+S = \int d^4x\,\sqrt{-g}\left[\frac{M_{\rm Pl}^2}{2}R - \frac{1}{2}(\partial\chi)^2 - U(\chi) + \mathcal{L}_{\rm SM}(g,H,\dots)\right] + S_m[A^2(\chi)g,\psi].
+$$
 
-Aquí escribir L_SM y S_m por separado exige evitar contar dos veces los mismos grados de libertad. Una formulación consistente debe decidir si **todo** el sector de materia estándar, incluido Higgs, está en S_m o si el portal se separa en la acción Einstein. La expresión es un esquema hasta concretar esa asignación.
+Writing $\mathcal{L}_{\rm SM}$ and $S_m$ separately here requires avoiding double-counting the same degrees of freedom. A consistent formulation must decide whether **all** of the Standard Model matter sector, including the Higgs, resides in $S_m$, or whether the portal is separated in the Einstein-frame action. The expression is a schema until that assignment is specified.
 
-Definir α(χ)=d ln A/dχ y β(χ)=M_Pl α(χ). La ecuación escalar en el marco Einstein se escribe, para el sector material acoplado:
+Define $\alpha(\chi) = d\ln A / d\chi$ and $\beta(\chi) = M_{\rm Pl}\,\alpha(\chi)$. The scalar equation in the Einstein frame reads, for the coupled matter sector:
 
-□χ = U_,χ − α T_E.
+$$
+\Box\chi = U_{,\chi} - \alpha T_E.
+$$
 
-En polvo T_E≈−ρ_E, por lo que □χ = U_,χ + α ρ_E. La conservación material transformada tiene para polvo:
+For dust $T_E \approx -\rho_E$, so $\Box\chi = U_{,\chi} + \alpha \rho_E$. Transformed matter conservation for dust gives:
 
-ρ̇_E + 3Hρ_E = α χ̇ ρ_E;
-ρ̇_* + 3Hρ_* = 0; ρ_* = ρ_E/A = A³ ρ̃.
+$$
+\dot\rho_E + 3H\rho_E = \alpha\dot\chi\rho_E; \qquad \dot\rho_* + 3H\rho_* = 0; \qquad \rho_* = \frac{\rho_E}{A} = A^3\widetilde\rho.
+$$
 
-El potencial efectivo para polvo **a ρ_* fijo**:
+The effective potential for dust **at fixed $\rho_*$** is:
 
-U_eff(χ;ρ_*) = U(χ)+ρ_*[A(χ)−1];
-∂χ U_eff = U_,χ+ρ_*A_,χ.
+$$
+U_{\rm eff}(\chi;\rho_*) = U(\chi) + \rho_*[A(\chi) - 1]; \qquad \partial_\chi U_{\rm eff} = U_{,\chi} + \rho_* A_{,\chi}.
+$$
 
-La resta del término constante no elimina energía del tensor gravitante. Las ecuaciones de Friedmann en Einstein contienen ρ_E, no ρ_* sin transformación.
+Subtracting the constant term does not remove energy from the gravitating stress tensor. The Friedmann equations in the Einstein frame contain $\rho_E$, not $\rho_*$ without transformation.
 
-## Fondo homogéneo
+## Homogeneous background
 
-3M_Pl² H² = ρ_E + ρ_r + χ̇²/2 + U(χ) [si no hay otros sectores].
-−2M_Pl² Ḣ = ρ_E+(4/3)ρ_r+χ̇².
+$$
+3M_{\rm Pl}^2 H^2 = \rho_E + \rho_r + \frac{1}{2}\dot\chi^2 + U(\chi) \quad \text{[if no other sectors]},
+$$
+$$
+-2M_{\rm Pl}^2 \dot H = \rho_E + \frac{4}{3}\rho_r + \dot\chi^2.
+$$
 
-La aceleración cosmológica general es ä/a = −(ρ_tot+3p_tot)/(6M_Pl²). Requiere ρ_tot+3p_tot<0; expansión y aceleración no son sinónimos.
+General cosmological acceleration is $\ddot a / a = -(\rho_{\rm tot} + 3p_{\rm tot}) / (6M_{\rm Pl}^2)$. It requires $\rho_{\rm tot} + 3p_{\rm tot} < 0$; expansion and acceleration are not synonymous.
 
-## Versión biescalar para investigación
+## Two-scalar version for research
 
-S = ∫√(-g) [M_Pl²R/2 − (∂χ)²/2 − (∂φ)²/2 − U_DE(χ) − V_PT(φ,χ) + L_portal + L_CP] + S_m[A²(χ)g,ψ].
+$$
+S = \int d^4x\,\sqrt{-g}\left[\frac{M_{\rm Pl}^2}{2}R - \frac{1}{2}(\partial\chi)^2 - \frac{1}{2}(\partial\varphi)^2 - U_{\rm DE}(\chi) - V_{\rm PT}(\varphi,\chi) + \mathcal{L}_{\rm portal} + \mathcal{L}_{\rm CP}\right] + S_m[A^2(\chi)g,\psi].
+$$
 
-Aún no se ha elegido el L_portal ni L_CP completos: sus signos, dimensiones, contenido de campos y simetrías deben especificarse antes de deducir masas, estabilidad o bariogénesis. Para potencial V=U_DE+V_PT, el sistema euclidiano O(4), sin fuentes adicionales, contiene:
+The full $\mathcal{L}_{\rm portal}$ and $\mathcal{L}_{\rm CP}$ have not yet been chosen: their signs, dimensions, field content, and symmetries must be specified before deducing masses, stability, or baryogenesis. For a potential $V = U_{\rm DE} + V_{\rm PT}$, the $O(4)$ Euclidean system, without additional sources, contains:
 
-φ''+3b'/b φ' = ∂V/∂φ;
-χ''+3b'/b χ' = ∂V/∂χ;
-b'²=1 + b²[(φ'²+χ'²)/2 − V]/(3M_Pl²).
+$$
+\varphi'' + 3\frac{b'}{b}\varphi' = \frac{\partial V}{\partial\varphi}; \qquad \chi'' + 3\frac{b'}{b}\chi' = \frac{\partial V}{\partial\chi}; \qquad b'^2 = 1 + \frac{b^2}{3M_{\rm Pl}^2}\left[\frac{1}{2}(\varphi'^2 + \chi'^2) - V\right].
+$$
 
-Son ecuaciones candidatas para un problema de contorno de Coleman–De Luccia, **no una solución ya calculada**. Deberán acompañarse de regularidad, condiciones en los extremos, acción euclidiana y continuación lorentziana.
+These are candidate equations for a Coleman–De Luccia boundary-value problem, **not an already-computed solution**. They must be accompanied by regularity, endpoint boundary conditions, the Euclidean action, and Lorentzian continuation.
 
-Los campos escalares múltiples evitan imponer una sola escala dinámica, pero NO resuelven automáticamente la jerarquía radiativa, las fuerzas adicionales ni la creación de universos.
+Multiple scalar fields avoid imposing a single dynamical scale, but they do **not** automatically solve the radiative hierarchy, fifth forces, or universe creation.

@@ -1,29 +1,29 @@
-# 10 — Pruebas de falsación y aceptación de un modelo
+# 10 — Falsification Tests and Model Acceptance
 
-## Puertas lógicas
+## Logic gates
 
-G1. **Dimensiones y marcos.** Toda ecuación mantiene dimensiones correctas; densidades Einstein/Jordan/ρ_* no se confunden y la acción no cuenta materia dos veces.
+G1. **Dimensions and frames.** Every equation maintains consistent dimensions; Einstein/Jordan/$\rho_*$ densities are not confused, and the action does not double-count matter.
 
-G2. **Soluciones.** Existen mínimos, perfiles de screening, soluciones de Friedmann y bounce gravitatorio con condiciones de contorno explícitas. No inferir soluciones de una gráfica del potencial.
+G2. **Solutions.** Minima, screening profiles, Friedmann solutions, and a gravitational bounce exist with explicit boundary conditions. Do not infer solutions from a plot of the potential.
 
-G3. **Estabilidad.** Sin fantasmas, gradientes inestables ni acoplamientos que invaliden la EFT; controlar naturalidad radiativa o exponer el ajuste fino.
+G3. **Stability.** No ghosts, gradient instabilities, or couplings that invalidate the EFT; control radiative naturalness or expose the fine-tuning.
 
-G4. **Recuperación local.** La teoría pasa al menos las pruebas de quinta fuerza y relatividad relevantes. El coeficiente β=M_Pl dlnA/dχ se calcula en el entorno correcto.
+G4. **Local recovery.** The theory passes at least the relevant fifth-force and relativity tests. The coefficient $\beta = M_{\rm Pl}\,d\ln A/d\chi$ is evaluated in the right environment.
 
-G5. **Historia térmica.** Energía para recalentamiento suficiente; calcular η_B y fluctuaciones, no asumirlos porque existe una pared de burbuja.
+G5. **Thermal history.** Sufficient energy for reheating; compute $\eta_B$ and perturbations rather than assuming them because a bubble wall exists.
 
-G6. **Datos cosmológicos.** Predicciones diferenciables de ΛCDM y comparación reproducible con observaciones. Explicitar los priors y las degeneraciones.
+G6. **Cosmological data.** Predictions distinguishable from $\Lambda$CDM and reproducible comparison with observations. Make priors and degeneracies explicit.
 
-G7. **Entropía y causalidad.** Si se reclama continuidad entre universos, identificar canal informacional físico y compatibilidad con horizontes y termodinámica; de lo contrario clasificarlo como especulación.
+G7. **Entropy and causality.** If inter-universe continuity is claimed, identify a physical information channel and compatibility with horizons and thermodynamics; otherwise classify it as speculation.
 
-## Caso numérico mínimo
+## Minimal numerical check
 
-Ejecutar python3 models/vpt_benchmark.py. Debe verificar los extremos y diferencias de energía del potencial de sexto orden y las escalas del ejemplo. Es una prueba **algebraica**, no validación empírica.
+Run `python3 models/vpt_benchmark.py`. It must verify the extrema and energy differences of the sixth-order potential and the example scales. This is an **algebraic** check, not empirical validation.
 
-## Criterios de descarte
+## Rejection criteria
 
-Una versión candidata queda descartada en el régimen elegido si viola dimensiones, carece de mínimo/túnel descrito, requiere simultáneamente masas irreconciliables para un único campo, predice una fuerza sin apantallamiento incompatible con límites o no produce la historia térmica exigida mientras reclama haberla explicado. Reformular hipótesis no es falsar la naturaleza: conservar histórico de parámetros y casos fallidos.
+A candidate version is ruled out in the chosen regime if it violates dimensional consistency, lacks the claimed minimum/tunneling solution, simultaneously requires irreconcilable masses for a single field, predicts an unscreened force incompatible with bounds, or fails to produce the required thermal history while claiming to have explained it. Reformulating hypotheses is not falsifying nature: preserve the history of parameters and failed cases.
 
-## Publicación
+## Publication
 
-Separar en cada resultado [LITERATURA], [DERIVACIÓN], [BENCHMARK], [HIPÓTESIS] y [ESPECULACIÓN]. Declarar cuando una predicción dependa de suponer el valor que después se presenta como resultado.
+Tag each result as `[LITERATURE]`, `[DERIVATION]`, `[BENCHMARK]`, `[HYPOTHESIS]`, or `[SPECULATION]`. Declare whenever a prediction depends on assuming the value later presented as a result.

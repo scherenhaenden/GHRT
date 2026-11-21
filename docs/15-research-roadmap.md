@@ -1,41 +1,41 @@
-# 15 — Hoja de ruta científica (GHRT / GHRT-VPT)
+# 15 — Scientific Roadmap (GHRT / GHRT-VPT)
 
-## Etapa 0 — Consolidar procedencia y baseline
+## Stage 0 — Consolidate provenance and baseline
 
-Conservar el manual docs/11-manual-correcciones-v0.1.md, versiones históricas externas v0.1/v0.1.1/v0.1.2 y las notas de noviembre sin presentar repositorio como fuente completa del PDF maestro. Etiquetar literaturas/derivaciones/hipótesis. Usar convención (-,+,+,+), Einstein/Jordan y unidades coherentes.
+Preserve the manual `docs/11-manual-correcciones-v0.1.md`, external historical versions v0.1/v0.1.1/v0.1.2, and the November notes without presenting the repository as a complete source of the master PDF. Tag literature/derivations/hypotheses. Use $(-,+,+,+)$, Einstein/Jordan frames, and consistent units.
 
-## Etapa 1 — Modelo efectivo autoconsistente
+## Stage 1 — Self-consistent effective model
 
-Fijar si los sectores estándar se acoplan conformemente de forma universal y en qué acción se coloca Higgs. Especificar funciones U_DE(χ), V_PT(φ,χ), A(χ), L_portal, L_CP con dimensiones, simetrías, parámetros y dominio EFT. Derivar ecuaciones por variación completa; comprobar identidad de Bianchi. No inventar física de “granularidad” sin un operador y una predicción.
+Fix whether Standard Model sectors couple conformally in a universal way and in which action the Higgs is placed. Specify $U_{\rm DE}(\chi)$, $V_{\rm PT}(\varphi,\chi)$, $A(\chi)$, $\mathcal{L}_{\rm portal}$, and $\mathcal{L}_{\rm CP}$ with dimensions, symmetries, parameters, and EFT domain. Derive equations by full variation; verify the Bianchi identity. Do not invent “granularity” physics without an operator and a prediction.
 
-**Aceptación:** acción inequívoca, dimensiones correctas, conservación y recuperación de GR en régimen controlado.
+**Acceptance:** unambiguous action, consistent dimensions, conservation, and recovery of GR in a controlled regime.
 
-## Etapa 2 — Prueba del benchmark
+## Stage 2 — Benchmark testing
 
-Usar models/vpt_benchmark.py para verificar extremos y escalas. Hacer barridos independientes en a, f/E_*, M y términos de acoplamiento; separar tasa introducida como objetivo de tasa predicha. Construir prueba de sensibilidad de pared delgada respecto a cálculo de bounce O(4) plano.
+Use `models/vpt_benchmark.py` to verify extrema and scales. Run independent sweeps in $a$, $f/E_*$, $M$, and coupling terms; separate target-input rate from predicted rate. Build a thin-wall sensitivity test against a flat $O(4)$ bounce calculation.
 
-**Aceptación:** código probado y gráfico/modelo de errores, no solo resultados a mano.
+**Acceptance:** tested code and error plots/models, not only hand calculations.
 
-## Etapa 3 — Gravedad y geometría
+## Stage 3 — Gravity and geometry
 
-Resolver conjuntamente b(ξ), χ(ξ), φ(ξ) y condiciones de regularidad, calcular B con gravedad y factor prefactor. Clasificar ramas de decaimiento de falso vacío y escenario de falso vacío inflacionario en laboratorio. Continuar a geometría lorentziana y obtener FRW interior si existe.
+Jointly solve $b(\xi)$, $\chi(\xi)$, $\varphi(\xi)$ and regularity conditions; compute $B$ with gravity and the prefactor. Classify false-vacuum decay branches and the laboratory inflationary false-vacuum scenario. Continue to Lorentzian geometry and obtain interior FRW if it exists.
 
-**Aceptación:** solución numérica independiente de discretización, B finito y controlado, clasificación causal.
+**Acceptance:** discretization-independent numerical solution, finite and controlled $B$, causal classification.
 
-## Etapa 4 — Física de partículas y universo caliente
+## Stage 4 — Particle physics and hot universe
 
-Términos térmicos del potencial, canal de recalentamiento, T_RH, historia de neutrinos/BBN, bariogénesis (Sakharov), EDM, mezcla Higgs y naturalidad. Calcular espectro primordial; no sustituir por δρ/ρ fijo arbitrariamente.
+Thermal potential terms, reheating channel, $T_{\rm RH}$, neutrino/BBN history, baryogenesis (Sakharov), EDM bounds, Higgs mixing, and naturalness. Compute the primordial spectrum; do not substitute an arbitrarily fixed $\delta\rho/\rho$.
 
-**Aceptación:** historia térmica compatible con datos y parámetros permitidos.
+**Acceptance:** thermal history compatible with data and allowed parameters.
 
-## Etapa 5 — Pruebas observacionales
+## Stage 5 — Observational tests
 
-Perturbaciones cosmológicas, CMB, BAO, crecimiento, lente gravitacional, quinta fuerza local, principio de equivalencia, pulsars/GWs según modelo. Publicar posterior predictivo y comparar con ΛCDM bajo criterios estadísticos idénticos.
+Cosmological perturbations, CMB, BAO, growth, gravitational lensing, local fifth force, equivalence principle, pulsars/GWs as applicable to the model. Publish predictive posteriors and compare against $\Lambda$CDM under identical statistical criteria.
 
-**Aceptación:** predicciones falsables y documentación reproducible.
+**Acceptance:** falsifiable predictions and reproducible documentation.
 
-## Etapa 6 — Pregunta informacional (separada)
+## Stage 6 — Informational question (separate)
 
-Sólo cuando exista geometría hija establecida: definir canal físico de información con grados de libertad, capacidad, mapa de estado padre→hijo, recuperación de observables, entropía y causalidad. No confundir transmisión de parámetros globales con transferencia de memoria o continuidad personal.
+Only once an established daughter geometry exists: define a physical information channel with degrees of freedom, capacity, parent $\to$ daughter state map, observable recovery, entropy, and causality. Do not confuse transmission of global parameters with transfer of memory or personal continuity.
 
-El objetivo es **descubrir fallos pronto**, no encajar retrospectivamente todos los fenómenos en GHRT.
+The goal is **to discover failures early**, not to retroactively fit every phenomenon into GHRT.

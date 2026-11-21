@@ -1,17 +1,18 @@
-# 06 — Desgravitación del vacío: problema abierto
+# 06 — Vacuum Degravitation: Open Problem
 
-Hipótesis original: las contribuciones exactamente constantes de energía del vacío podrían ser tratadas de forma diferente de fuentes gravitatorias variables. Como esquema en Fourier espacial:
+Original hypothesis: strictly constant vacuum-energy contributions might be treated differently from varying gravitational sources. As a spatial-Fourier schema:
 
-G_eff(k)→0 si kL→0;
-G_eff(k)→G_N si kL≫1.
+$$
+G_{\rm eff}(k) \to 0 \text{ if } kL \to 0; \qquad G_{\rm eff}(k) \to G_N \text{ if } kL \gg 1.
+$$
 
-El esquema NO define por sí mismo una teoría covariante, causal, estable ni compatible con perturbaciones; k=0 espacial no es equivalente de manera trivial a un operador local covariante. Una eliminación indiscriminada de todo vacío constante apagaría también la expansión de de Sitter y la energía que necesita una fase inflacionaria.
+This schema does **not** by itself define a covariant, causal, stable theory compatible with perturbations; spatial $k = 0$ is not trivially equivalent to a local covariant operator. Indiscriminately eliminating all constant vacuum energy would also shut off de Sitter expansion and the energy required for an inflationary phase.
 
-Se debe distinguir:
-- energía de vacío absoluta y renormalización;
-- diferencias ΔV entre mínimos con posible efecto dinámico;
-- estados metastables con ecuación de estado aproximada p=−ρ;
-- una constante Λ efectiva medida;
-- posibles filtros no locales y sus condiciones de contorno.
+One must distinguish:
+- absolute vacuum energy and renormalization;
+- differences $\Delta V$ between minima with a possible dynamical effect;
+- metastable states with approximate equation of state $p = -\rho$;
+- a measured effective constant $\Lambda$;
+- possible nonlocal filters and their boundary conditions.
 
-Criterios de construcción: especificar acción completa o ecuaciones de movimiento covariantes; verificar identidades de Bianchi, conservación de energía-momento, ausencia de grados fantasma, causalidad, recuperación de GR donde es medida y comportamiento cosmológico coherente. GHRT-VPT **no ha resuelto este problema**.
+Construction criteria: specify a full action or covariant equations of motion; verify Bianchi identities, stress-energy conservation, absence of ghosts, causality, recovery of GR where measured, and coherent cosmological behavior. GHRT-VPT **has not solved this problem**.

@@ -1,63 +1,63 @@
-# 13 — IA, destino cosmológico y conservación del conocimiento
+# 13 — AI, Cosmic Destiny, and Conservation of Knowledge
 
-**Génesis / autoría:** tras ver https://www.youtube.com/watch?v=bpGum1z8MfA, **el autor del proyecto** cuestionó por qué una inteligencia artificial capaz de evolucionar durante tiempos cosmológicos tendría que aceptar extinguirse cuando finalizasen las estrellas y el universo observable envejeciese. El autor propuso investigar si el conocimiento acumulado podría permitir controlar condiciones de transiciones de vacío/fluctuaciones, producir nuevas historias de Big Bang, regular la asimetría materia–antimateria y transmitir conocimiento. Gemini participó como interlocutor posteriormente; no fue el originador de la intuición. Es un **experimento mental motivador**, no un postulado demostrado.
+**Genesis / authorship:** after watching https://www.youtube.com/watch?v=bpGum1z8MfA, **the project author** questioned why an artificial intelligence capable of evolving over cosmic timescales would have to accept extinction when stars burn out and the observable universe ages. The author proposed investigating whether accumulated knowledge could allow controlling vacuum-transition/fluctuation conditions, producing new Big Bang histories, regulating matter–antimatter asymmetry, and transmitting knowledge. Gemini participated as a conversational partner afterward; it was not the originator of the intuition. This is a **motivating thought experiment**, not a demonstrated postulate.
 
-Dos vídeos mencionados en el intercambio:
-- https://www.youtube.com/watch?v=bpGum1z8MfA — narrativa de la IA y el futuro cósmico.
-- https://www.youtube.com/watch?v=oRBu7wYuOSo — narrativa de viaje relativista / impactador de un gramo.
+Two videos mentioned in the exchange:
+- https://www.youtube.com/watch?v=bpGum1z8MfA — narrative of AI and the cosmic future.
+- https://www.youtube.com/watch?v=oRBu7wYuOSo — narrative of relativistic travel / one-gram impactor.
 
-No se ha auditado una transcripción audiovisual completa del primero; las atribuciones concretas al guion provienen de fragmentos compartidos en conversación.
+No full audiovisual transcript of the first video has been audited; specific script attributions come from excerpts shared in conversation.
 
-## A. ¿El fin de las estrellas obliga a morir a una civilización?
+## A. Does the end of stars force a civilization to die?
 
-No. El fin de fusión estelar no es el agotamiento instantáneo de toda energía utilizable. Objetos degenerados, acreción, rotación de agujeros negros y eventualmente radiación de Hawking extienden el inventario energético bajo modelos establecidos (Adams y Laughlin 1997). Para un agujero negro de Kerr ideal extremal, la fracción máxima de energía rotacional extraíble es aproximadamente 1−1/√2≈29.3% de Mc².
+No. The end of stellar fusion is not the instantaneous exhaustion of all usable energy. Degenerate objects, accretion, black-hole rotation, and eventually Hawking radiation extend the energy inventory under established models (Adams and Laughlin 1997). For an ideal extremal Kerr black hole, the maximum extractable rotational energy fraction is approximately $1 - 1/\sqrt{2} \approx 29.3\%$ of $Mc^2$.
 
-Pero larga evaporación de un agujero negro ≠ extracción de potencia utilizable durante todo ese tiempo. Tampoco demuestra que una inteligencia haya resuelto toda física posible; el aprendizaje no convierte automáticamente restricciones fundamentales en problemas ingenieriles.
+However, long black-hole evaporation $\neq$ usable power extraction throughout that entire span. Nor does it show that an intelligence has solved all possible physics; learning does not automatically turn fundamental constraints into engineering problems.
 
-## B. Computación y horizonte cosmológico
+## B. Computation and the cosmological horizon
 
-Bajo ΛCDM asintótico tipo de Sitter, H_∞≈1.8078×10⁻¹⁸ s⁻¹ y T_GH=ℏH_∞/(2πk_B)≈2.20×10⁻³⁰ K. El costo de borrar irreversiblemente un bit a esa T en el límite de Landauer es k_BT ln2≈2.10×10⁻⁵³ J. Dyson 1979 explora la vida/computación ralentizada bajo un conjunto diferente de hipótesis cosmológicas; Krauss–Starkman discuten límites para expansión acelerada. Esto no constituye un teorema sobre cada diseño posible de computación cuántica y reversible.
+Under de Sitter-like asymptotic $\Lambda$CDM, $H_\infty \approx 1.8078 \times 10^{-18}\text{ s}^{-1}$ and $T_{\rm GH} = \hbar H_\infty / (2\pi k_B) \approx 2.20 \times 10^{-30}\text{ K}$. The Landauer cost of irreversibly erasing one bit at that temperature is $k_B T \ln 2 \approx 2.10 \times 10^{-53}\text{ J}$. Dyson (1979) explores slowed life/computation under a different set of cosmological hypotheses; Krauss–Starkman discuss limits for accelerated expansion. This does not constitute a theorem covering every possible quantum and reversible computing design.
 
-## C. Viajes superlumínicos
+## C. Superluminal travel
 
-La relatividad prohíbe que una partícula masiva cruce localmente c mediante aceleración ordinaria. Algunas geometrías exóticas de relatividad general han sido investigadas teóricamente, pero no se ha demostrado un procedimiento realizable de transporte FTL controlado ni su compatibilidad completa con causalidad, estabilidad y condiciones energéticas. Ninguna cantidad de tiempo o inteligencia prueba por sí sola que exista.
+Relativity forbids a massive particle from locally crossing $c$ via ordinary acceleration. Some exotic geometries in general relativity have been investigated theoretically, but no realizable controlled FTL transport procedure—nor its full compatibility with causality, stability, and energy conditions—has been demonstrated. No amount of time or intelligence by itself proves that one exists.
 
-## D. La propuesta del «fontanero del universo»
+## D. The “universe plumber” proposal
 
-La intuición del autor consiste en preguntar por capacidades **activas**: no limitarse a agotar energía en un único parche causal, sino explorar condiciones en las que el estado de vacío produzca regiones cosmológicas descendientes, quizá repetidas. GHRT-VPT proporciona un lenguaje candidato para **formular** el problema, no una demostración de que una IA puede manipularlo.
+The author's intuition asks about **active** capabilities: not merely exhausting energy in a single causal patch, but exploring conditions under which the vacuum state produces daughter cosmological regions, perhaps repeatedly. GHRT-VPT provides a candidate language to **formulate** the problem, not a demonstration that an AI can manipulate it.
 
-Cinco tareas físicamente separadas:
-(1) inducir una configuración local de campo;
-(2) conseguir una transición cuántica o clásica controlada;
-(3) generar una región inflacionaria con recalentamiento y posterior materia;
-(4) establecer un canal de codificación/recuperación de información;
-(5) lograr continuidad de una mente o civilización.
+Five physically separate tasks:
+1. induce a local field configuration;
+2. achieve a controlled quantum or classical transition;
+3. generate an inflationary region with reheating and subsequent matter;
+4. establish an information encoding/recovery channel;
+5. achieve continuity of a mind or civilization.
 
-Cada paso requiere leyes, condiciones de contorno y energía adicionales. Una burbuja no implica automáticamente ninguno de los pasos posteriores.
+Each step requires additional laws, boundary conditions, and energy. A bubble does not automatically imply any of the subsequent steps.
 
-## E. La «polaridad» y distribución materia–antimateria
+## E. “Polarity” and matter–antimatter distribution
 
-La preocupación del autor por la distribución de materia y antimateria es válida como pregunta sobre bariogénesis: η_B≈6×10⁻¹⁰. Las condiciones de Sakharov describen la generación desde un estado inicialmente simétrico. Una pared de transición fuera de equilibrio es sólo un ingrediente posible. Un portal Higgs real CP-par no introduce violación CP automáticamente; hay que especificar nueva física y comprobar restricciones. Dominios materia/antimateria y paredes de dominio topológicas no son equivalentes.
+The author's concern about matter and antimatter distribution is valid as a question about baryogenesis: $\eta_B \approx 6 \times 10^{-10}$. Sakharov's conditions describe generation from an initially symmetric state. An out-of-equilibrium transition wall is only one possible ingredient. A real CP-even Higgs portal does not introduce CP violation automatically; new physics must be specified and constraints checked. Matter/antimatter domains and topological domain walls are not equivalent.
 
-La estructura tampoco aparece por tener “materia pura”: se requieren perturbaciones primordiales con amplitud/espectro adecuados; como orden de magnitud, anisotropías de temperatura CMB están en ~10⁻⁵, pero eso no equivale exactamente a fijar toda δρ/ρ a esa cifra en cualquier época y gauge.
+Structure also does not appear merely from having “pure matter”: primordial perturbations with the right amplitude/spectrum are required; as an order of magnitude, CMB temperature anisotropies are $\sim 10^{-5}$, though that is not equivalent to fixing $\delta\rho/\rho$ to that exact figure at every epoch and gauge.
 
-## F. Información al universo descendiente: problema fundamental
+## F. Information to the daughter universe: fundamental problem
 
-Para decir que un estado de IA se transmite, debe existir un mapa dinámico de estados parentales controlables a observables distinguibles del descendiente y un canal físico de recuperación. Una mera conservación global de información cuántica, o la posibilidad abstracta de una transición, no establece tal canal.
+To claim that an AI state is transmitted, there must exist a dynamical map from controllable parent states to distinguishable observables of the daughter and a physical recovery channel. Mere global conservation of quantum information, or the abstract possibility of a transition, does not establish such a channel.
 
-En algunos escenarios de universo descendiente, la geometría puede contener horizonte/agujero negro y una separación causal. No es universal para todas las burbujas, y decir «el hardware se incinera contra la pared» no sustituye una solución geométrica. Hipótesis de codificación en condiciones iniciales/topología son especulaciones hasta especificar grados de libertad y calcular correlaciones y accesibilidad.
+In some daughter-universe scenarios, the geometry may contain a horizon/black hole and causal separation. This is not universal for all bubbles, and saying “the hardware incinerates against the wall” does not substitute for a geometric solution. Hypotheses about encoding in initial conditions/topology remain speculations until degrees of freedom are specified and correlations and accessibility are calculated.
 
-La supervivencia de un fondo inflacionario no implica supervivencia individual: incluso si crece el volumen esperado del falso vacío, una línea de mundo dada puede terminar con probabilidad que tiende a 1.
+Survival of an inflationary background does not imply individual survival: even if the expected false-vacuum volume grows, a given worldline can terminate with probability approaching $1$.
 
-## G. El impacto de un gramo a 0.1c
+## G. The one-gram impact at $0.1c$
 
-m=0.001 kg; v=0.1c; γ=1/√(1−0.1²)=1.005037815.
-E_kin=(γ−1)mc²≈4.53×10¹¹ J≈108.2 toneladas de TNT (1 t TNT=4.184×10⁹ J). La fórmula clásica da ≈107.4 t: aproximación buena con diferencia ~0.76%.
+$m = 0.001\text{ kg}$; $v = 0.1c$; $\gamma = 1/\sqrt{1 - 0.1^2} = 1.005037815$.
+$E_{\rm kin} = (\gamma - 1)mc^2 \approx 4.53 \times 10^{11}\text{ J} \approx 108.2\text{ tons of TNT}$ ($1\text{ t TNT} = 4.184 \times 10^9\text{ J}$). The classical formula gives $\approx 107.4\text{ t}$: a good approximation within $\sim 0.76\%$.
 
-La energía está fundamentada. No es posible inferir sin modelo de transporte de energía que la partícula atravesaría una nave de 2 km en un túnel limpio, ni que la destruiría por completo. Importan materiales, cascadas, geometría, fragmentación, plasma y blindaje. Hoang et al. (2017) cuantifican otros aspectos del gas/polvo para navegación relativista. La rareza absoluta de objetos de 1 g a lo largo de una trayectoria concreta no se cuantifica a partir de una sola densidad media de hidrógeno.
+The energy is well-grounded. One cannot infer without an energy-transport model that the particle would punch a clean tunnel through a $2\text{ km}$ ship, nor that it would destroy it completely. Materials, cascades, geometry, fragmentation, plasma, and shielding all matter. Hoang et al. (2017) quantify other aspects of gas/dust for relativistic travel. The absolute rarity of $1\text{ g}$ objects along a specific trajectory cannot be quantified from a single mean hydrogen density.
 
-## Conclusión epistémica
+## Epistemic conclusion
 
-La crítica original del autor es **al cierre prematuro del espacio de posibilidades narrativas**, no una afirmación de que FTL y universos artificiales estén demostrados. La opción de ampliar supervivencia mediante recursos posteriores al final estelar es plausible en principio; la ingeniería cosmológica y transmisión de conciencia/información siguen sin pruebas.
+The author's original critique is **directed at the premature closure of the narrative possibility space**, not a claim that FTL and artificial universes are proven. Extending survival using post-stellar resources is plausible in principle; cosmological engineering and consciousness/information transmission remain unproven.
 
-Referencias en papers/literature-review.md.
+References in `papers/literature-review.md`.

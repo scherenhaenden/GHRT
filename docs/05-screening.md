@@ -1,21 +1,25 @@
-# 05 — Apantallamiento y quinta fuerza
+# 05 — Screening and Fifth Force
 
-Potencial symmetron de referencia:
+Reference symmetron potential:
 
-U_eff(χ;ρ_*) = U_0 + [(ρ_*/M²)−μ²]χ²/2 + λχ⁴/4.
+$$
+U_{\rm eff}(\chi;\rho_*) = U_0 + \left(\frac{\rho_*}{M^2} - \mu^2\right)\frac{\chi^2}{2} + \frac{\lambda}{4}\chi^4.
+$$
 
-ρ_c=μ²M². Si ρ_*>ρ_c, χ=0 es mínimo; para ρ_*<ρ_c, mínimos χ²=(μ²−ρ_*/M²)/λ. Este es un patrón **continuo** de ruptura/restauración de simetría, no un ejemplo automático de transición cuántica de primer orden. Literatura principal: Hinterbichler et al., Phys. Rev. D 84 103521 (2011), doi:10.1103/PhysRevD.84.103521.
+Here $\rho_c = \mu^2 M^2$. If $\rho_* > \rho_c$, $\chi = 0$ is the minimum; for $\rho_* < \rho_c$, the minima satisfy $\chi^2 = (\mu^2 - \rho_*/M^2)/\lambda$. This is a **continuous** pattern of symmetry breaking/restoration, not an automatic example of a first-order quantum transition. Primary literature: Hinterbichler et al., *Phys. Rev. D* **84**, 103521 (2011), https://doi.org/10.1103/PhysRevD.84.103521.
 
-Para A=exp(χ²/(2M²)), α=χ/M²; β=M_Plχ/M². La fuerza escalar lineal para fuentes puntuales con igual acoplamiento efectivo, en entorno de masa constante, satisface:
+For $A = \exp(\chi^2 / (2M^2))$, $\alpha = \chi / M^2$ and $\beta = M_{\rm Pl}\chi / M^2$. The linear scalar force for point sources with equal effective coupling, in a constant-mass background, satisfies:
 
-F_χ/F_N = 2β_eff² (1+m_eff r)e^(−m_eff r).
+$$
+\frac{F_\chi}{F_N} = 2\beta_{\rm eff}^2 (1 + m_{\rm eff} r) e^{-m_{\rm eff} r}.
+$$
 
-La fórmula depende del régimen lineal; cuerpos extensos y apantallados requieren perfiles de campo y cargas efectivas. No inferir viabilidad sólo de un mínimo local o de una masa grande.
+This formula depends on the linear regime; extended and screened bodies require field profiles and effective charges. Do not infer viability solely from a local minimum or a large mass.
 
-## Tensión del benchmark GHRT-VPT
+## GHRT-VPT benchmark tension
 
-Para el benchmark a=0.180, E_*=2.240 meV, f≈0.411 meV, el acoplamiento ambiental Δa=ρ_* f²/(M²E_*⁴) requiere M≈2.79 meV para producir Δa=0.01 a densidad cosmológica media de materia. En el mínimo no nulo esto da |β|~1.13×10²⁹, señal de fuerte tensión con fuerzas adicionales si no hay apantallamiento muy eficaz. Con M=M_Pl y el mismo f, Δa≈1.31×10⁻⁶²: el control ambiental es despreciable a escala de densidad cosmológica. Esto demuestra tensión de parámetros, NO excluye automáticamente toda función A ni otros mecanismos.
+For the benchmark $a = 0.180$, $E_* = 2.240\text{ meV}$, $f \approx 0.411\text{ meV}$, the environmental coupling $\Delta a = \rho_* f^2 / (M^2 E_*^4)$ requires $M \approx 2.79\text{ meV}$ to produce $\Delta a = 0.01$ at mean cosmological matter density. At the nonzero minimum this gives $|\beta| \sim 1.13 \times 10^{29}$, signaling severe tension with fifth-force bounds unless screening is extraordinarily effective. With $M = M_{\rm Pl}$ and the same $f$, $\Delta a \approx 1.31 \times 10^{-62}$: environmental control is negligible at cosmological matter density. This demonstrates parameter tension; it does **not** automatically exclude every function $A$ or other mechanisms.
 
-## Pruebas necesarias
+## Required tests
 
-Calcular masas, perfiles, comportamiento dentro/fuera de cuerpos, equivalencia, torsión de precisión, átomos fríos, estructura cosmológica y seguridad de EFT. Mostrar límites experimentales concretos con sus supuestos. Una cavidad de vacío no dispara necesariamente una burbuja: la energía de gradiente y el tamaño importan.
+Compute masses, profiles, behavior inside/outside bodies, equivalence-principle bounds, precision torsion-balance tests, cold atoms, cosmological structure, and EFT safety. State concrete experimental bounds together with their assumptions. A vacuum cavity does not necessarily trigger a bubble: gradient energy and size matter.
