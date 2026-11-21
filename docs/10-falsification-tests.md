@@ -2,7 +2,7 @@
 
 ## Logic gates
 
-G1. **Dimensions and frames.** Every equation maintains consistent dimensions; Einstein/Jordan/$\rho_*$ densities are not confused, and the action does not double-count matter.
+G1. **Dimensions and frames.** Every equation maintains consistent dimensions; Einstein/Jordan/$\rho_{\ast}$ densities are not confused, and the action does not double-count matter.
 
 G2. **Solutions.** Minima, screening profiles, Friedmann solutions, and a gravitational bounce exist with explicit boundary conditions. Do not infer solutions from a plot of the potential.
 

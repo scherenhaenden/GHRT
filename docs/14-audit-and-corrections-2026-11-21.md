@@ -4,7 +4,7 @@
 
 ## C1. One field, two incompatible mass scales in the benchmark
 
-Potential $W = a y^2/2 - y^4/4 + y^6/6$. In the false vacuum, $m_\chi^2 = a E_*^4 / f^2$. With $a = 0.180$, $E_* = 2.240365\text{ meV}$, and $f \approx 0.410822\text{ meV}$:
+Potential $W = a y^2/2 - y^4/4 + y^6/6$. In the false vacuum, $m_\chi^2 = a E_{\ast}^4 / f^2$. With $a = 0.180$, $E_{\ast} = 2.240365\text{ meV}$, and $f \approx 0.410822\text{ meV}$:
 $m_\chi \approx 5.183 \times 10^{-3}\text{ eV}$.
 $\hbar H_\infty \approx 1.190 \times 10^{-33}\text{ eV}$.
 $m_\chi / (\hbar H_\infty) \approx 4.36 \times 10^{30}$.
@@ -13,23 +13,23 @@ A field trapped in a false vacuum can act like $\Lambda$ even when heavy, but it
 
 ## C2. Environmental coupling tension
 
-If $\Delta a = \rho_* f^2 / (M^2 E_*^4)$, with $\rho_m/E_*^4 \approx \Omega_m/\Omega_\Lambda \approx 0.459854$ and target $\Delta a = 0.01$, then $M \approx 2.79\text{ meV}$. The conformal factor $A = \exp(\chi^2 / (2M^2))$ gives at $\chi = f y_+$ a coupling $\beta \approx 1.13 \times 10^{29}$; this must be confronted with screening/fifth-force bounds. For $M = M_{\rm Pl}$, $\Delta a \approx 1.31 \times 10^{-62}$. Do not present “density engineering” as a solved viable technique.
+If $\Delta a = \rho_{\ast} f^2 / (M^2 E_{\ast}^4)$, with $\rho_m/E_{\ast}^4 \approx \Omega_m/\Omega_\Lambda \approx 0.459854$ and target $\Delta a = 0.01$, then $M \approx 2.79\text{ meV}$. The conformal factor $A = \exp(\chi^2 / (2M^2))$ gives at $\chi = f y_+$ a coupling $\beta \approx 1.13 \times 10^{29}$; this must be confronted with screening/fifth-force bounds. For $M = M_{\rm Pl}$, $\Delta a \approx 1.31 \times 10^{-62}$. Do not present “density engineering” as a solved viable technique.
 
 ## C3. Action $B$ in the example was tuned to a target
 
-$B \approx 252724\,(f/E_*)^4$ corresponds to the flat thin-wall approximation with $\sigma$ estimated at $a_{\rm degenerate} = 3/16$ and evaluated at $a = 0.180$. We **chose** $\varepsilon = 0.001$ and $\mathcal{A} \approx E_*^4$ to deduce $B_{\rm obj} \approx 285.75$ and $f \approx 0.411\text{ meV}$. It is not an independently predicted rate. If $f \sim M_{\rm Pl}$ and $E_* \sim \text{meV}$, $B_{\rm flat} \sim 10^{125}$ falls outside the regime where the flat formula can be used without gravity.
+$B \approx 252724\,(f/E_{\ast})^4$ corresponds to the flat thin-wall approximation with $\sigma$ estimated at $a_{\rm degenerate} = 3/16$ and evaluated at $a = 0.180$. We **chose** $\varepsilon = 0.001$ and $\mathcal{A} \approx E_{\ast}^4$ to deduce $B_{\rm obj} \approx 285.75$ and $f \approx 0.411\text{ meV}$. It is not an independently predicted rate. If $f \sim M_{\rm Pl}$ and $E_{\ast} \sim \text{meV}$, $B_{\rm flat} \sim 10^{125}$ falls outside the regime where the flat formula can be used without gravity.
 
 ## E1. Three non-equivalent phenomena
 
 A decay bubble from false to true vacuum is not automatically a high-energy false-vacuum bubble built inside a low-energy universe. Nor is it automatically a hot Big Bang or a daughter spacetime. Distinguish CDL and Farhi–Guth–Guven constructions.
 
-## E2. Manipulating $\rho_*$ does not automatically trigger tunneling
+## E2. Manipulating $\rho_{\ast}$ does not automatically trigger tunneling
 
-With the adopted sign, $\partial a / \partial\rho_* > 0$; emptying reduces $a$, concentrating increases it. $a = 0$ is the local classical stability limit. A finite cavity requires gradients, size, and boundary conditions. “Lower barrier” is not a known rate without a bounce calculation.
+With the adopted sign, $\partial a / \partial\rho_{\ast} > 0$; emptying reduces $a$, concentrating increases it. $a = 0$ is the local classical stability limit. A finite cavity requires gradients, size, and boundary conditions. “Lower barrier” is not a known rate without a bounce calculation.
 
 ## C4. Insufficient thermal budget
 
-Present dark energy equivalent to $E_* = 2.240\text{ meV}$ gives a maximum photon temperature $\approx 28.87\text{ K}$; the difference $\Delta U = 0.002840\,E_*^4$ alone gives $\approx 6.66\text{ K}$. With $g_* = 10.75$ and $T_{\rm RH} = 5.96\text{ MeV}$, the ratio $u_{\rm rad}/u_\Lambda \approx 1.77 \times 10^{38}$. There is no hot Big Bang without another energy sector. The $5.96\text{ MeV}$ bound comes from a specific cosmological analysis, not an exact universal constant.
+Present dark energy equivalent to $E_{\ast} = 2.240\text{ meV}$ gives a maximum photon temperature $\approx 28.87\text{ K}$; the difference $\Delta U = 0.002840\,E_{\ast}^4$ alone gives $\approx 6.66\text{ K}$. With $g_{\ast} = 10.75$ and $T_{\rm RH} = 5.96\text{ MeV}$, the ratio $u_{\rm rad}/u_\Lambda \approx 1.77 \times 10^{38}$. There is no hot Big Bang without another energy sector. The $5.96\text{ MeV}$ bound comes from a specific cosmological analysis, not an exact universal constant.
 
 ## E3. CP-even portal does not generate CP violation
 

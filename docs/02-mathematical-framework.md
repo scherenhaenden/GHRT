@@ -19,16 +19,16 @@ $$
 For dust $T_E \approx -\rho_E$, so $\Box\chi = U_{,\chi} + \alpha \rho_E$. Transformed matter conservation for dust gives:
 
 $$
-\dot\rho_E + 3H\rho_E = \alpha\dot\chi\rho_E; \qquad \dot\rho_* + 3H\rho_* = 0; \qquad \rho_* = \frac{\rho_E}{A} = A^3\widetilde\rho.
+\dot\rho_E + 3H\rho_E = \alpha\dot\chi\rho_E; \qquad \dot\rho_{\ast} + 3H\rho_{\ast} = 0; \qquad \rho_{\ast} = \frac{\rho_E}{A} = A^3\widetilde\rho.
 $$
 
-The effective potential for dust **at fixed $\rho_*$** is:
+The effective potential for dust **at fixed $\rho_{\ast}$** is:
 
 $$
-U_{\rm eff}(\chi;\rho_*) = U(\chi) + \rho_*[A(\chi) - 1]; \qquad \partial_\chi U_{\rm eff} = U_{,\chi} + \rho_* A_{,\chi}.
+U_{\rm eff}(\chi;\rho_{\ast}) = U(\chi) + \rho_{\ast}[A(\chi) - 1]; \qquad \partial_\chi U_{\rm eff} = U_{,\chi} + \rho_{\ast} A_{,\chi}.
 $$
 
-Subtracting the constant term does not remove energy from the gravitating stress tensor. The Friedmann equations in the Einstein frame contain $\rho_E$, not $\rho_*$ without transformation.
+Subtracting the constant term does not remove energy from the gravitating stress tensor. The Friedmann equations in the Einstein frame contain $\rho_E$, not $\rho_{\ast}$ without transformation.
 
 ## Homogeneous background
 

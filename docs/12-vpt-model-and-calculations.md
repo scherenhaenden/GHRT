@@ -13,10 +13,10 @@ The earlier quadratic-quartic symmetron potential of GHRT yields a continuous tr
 In natural units $\hbar = c = 1$, for a canonical scalar $\chi$ with $y = \chi/f$:
 
 $$
-U_{\rm eff}(y;\rho_*) = U_0 + E_*^4 \left[a(\rho_*)\frac{y^2}{2} - \frac{y^4}{4} + \frac{y^6}{6}\right], \qquad a(\rho_*) = a_0 + \frac{\rho_* f^2}{M^2 E_*^4}.
+U_{\rm eff}(y;\rho_{\ast}) = U_0 + E_{\ast}^4 \left[a(\rho_{\ast})\frac{y^2}{2} - \frac{y^4}{4} + \frac{y^6}{6}\right], \qquad a(\rho_{\ast}) = a_0 + \frac{\rho_{\ast} f^2}{M^2 E_{\ast}^4}.
 $$
 
-Here $\rho_*$ represents the auxiliary density of **nonrelativistic matter** used in the effective potential; it is incorrect to substitute total radiation density without qualification.
+Here $\rho_{\ast}$ represents the auxiliary density of **nonrelativistic matter** used in the effective potential; it is incorrect to substitute total radiation density without qualification.
 
 Define $W(y) = a y^2/2 - y^4/4 + y^6/6$, so $W'(y) = y(a - y^2 + y^4)$.
 The nontrivial extrema satisfy $y_\pm^2 = [1 \pm \sqrt{1 - 4a}]/2$ when $0 \le a \le 1/4$.
@@ -28,7 +28,7 @@ $y_- = 0.48520600665$;
 $y_+ = 0.87439986911$;
 $W(y_-) = +0.00950675306$;
 $W(y_+) = -0.002840086392$;
-$\Delta U = 0.002840086392\,E_*^4$.
+$\Delta U = 0.002840086392\,E_{\ast}^4$.
 
 These numbers verify only the algebraic structure of the potential.
 
@@ -42,11 +42,11 @@ $$
 B_{\rm flat} \approx \frac{27\pi^2\sigma^4}{2\Delta U^3}; \qquad R_{\rm flat} \approx \frac{3\sigma}{\Delta U}.
 $$
 
-For $a = 3/16$, the wall tension between degenerate states is $\sigma = \frac{9}{64\sqrt{3}}\,f E_*^2 = 0.0811898816\,f E_*^2$.
+For $a = 3/16$, the wall tension between degenerate states is $\sigma = \frac{9}{64\sqrt{3}}\,f E_{\ast}^2 = 0.0811898816\,f E_{\ast}^2$.
 Using this degenerate tension as an approximation at $a = 0.180$ gives:
 
 $$
-B_{\rm flat} \approx 252724.00372\left(\frac{f}{E_*}\right)^4.
+B_{\rm flat} \approx 252724.00372\left(\frac{f}{E_{\ast}}\right)^4.
 $$
 
 The thin-wall and flat-space approximations can break down when the barrier is not high compared to $\Delta U$, when gravity is included, when $R$ approaches the Hubble radius, and when thermal effects are present; all preceding results are subject to these caveats.
@@ -55,26 +55,26 @@ The thin-wall and flat-space approximations can break down when the barrier is n
 
 Reference $\Lambda$CDM parameters: $H_0 = 67.4\text{ km/s/Mpc}$, $\Omega_m = 0.315$, $\Omega_\Lambda = 0.685$:
 $H_0 \approx 2.1843 \times 10^{-18}\text{ s}^{-1}$; $H_\infty \approx 1.8078 \times 10^{-18}\text{ s}^{-1}$;
-$u_\Lambda \approx 5.2532 \times 10^{-10}\text{ J/m}^3$; $E_* = (u_\Lambda \hbar^3 c^3)^{1/4} \approx 2.240365\text{ meV}$.
+$u_\Lambda \approx 5.2532 \times 10^{-10}\text{ J/m}^3$; $E_{\ast} = (u_\Lambda \hbar^3 c^3)^{1/4} \approx 2.240365\text{ meV}$.
 
-If one **chooses** a target rate $\varepsilon = \Gamma/H^4 = 0.001$ and **assumes** prefactor $\mathcal{A} \approx E_*^4$, the required bounce action is:
+If one **chooses** a target rate $\varepsilon = \Gamma/H^4 = 0.001$ and **assumes** prefactor $\mathcal{A} \approx E_{\ast}^4$, the required bounce action is:
 
 $$
-B_{\rm obj} \approx 4\ln\!\left(\frac{E_*}{\hbar H_\infty}\right) - \ln(\varepsilon) \approx 285.749.
+B_{\rm obj} \approx 4\ln\!\left(\frac{E_{\ast}}{\hbar H_\infty}\right) - \ln(\varepsilon) \approx 285.749.
 $$
 
-Solving $B_{\rm flat} = B_{\rm obj}$ yields $f/E_* \approx 0.18337$, $f \approx 0.410822\text{ meV}$, and $R_{\rm flat} \approx 1.385\text{ mm}$. This is an **inverted/calibrated example**: the rate was entered as a target condition, **not** predicted by the theory.
+Solving $B_{\rm flat} = B_{\rm obj}$ yields $f/E_{\ast} \approx 0.18337$, $f \approx 0.410822\text{ meV}$, and $R_{\rm flat} \approx 1.385\text{ mm}$. This is an **inverted/calibrated example**: the rate was entered as a target condition, **not** predicted by the theory.
 
-The local scalar mass at $y = 0$ is $m_\chi = \sqrt{a}\,E_*^2/f \approx 5.183 \times 10^{-3}\text{ eV}$. By contrast, $\hbar H_\infty \approx 1.190 \times 10^{-33}\text{ eV}$; their ratio is $\approx 4.36 \times 10^{30}$. The parameter choice that facilitates nucleation in this example is not a field that slow-rolls on Hubble scales. This does not prove that a heavy field trapped in a false vacuum cannot sustain vacuum energy, but it prevents claiming both slow-roll and rapid-nucleation dynamics for **the same field in the same example**.
+The local scalar mass at $y = 0$ is $m_\chi = \sqrt{a}\,E_{\ast}^2/f \approx 5.183 \times 10^{-3}\text{ eV}$. By contrast, $\hbar H_\infty \approx 1.190 \times 10^{-33}\text{ eV}$; their ratio is $\approx 4.36 \times 10^{30}$. The parameter choice that facilitates nucleation in this example is not a field that slow-rolls on Hubble scales. This does not prove that a heavy field trapped in a false vacuum cannot sustain vacuum energy, but it prevents claiming both slow-roll and rapid-nucleation dynamics for **the same field in the same example**.
 
 If one takes $f \sim M_{\rm Pl,reduced} \approx 2.435 \times 10^{27}\text{ eV}$ while keeping the $\text{meV}$ scale, the formal value $B_{\rm flat} \sim 3.5 \times 10^{125}$ implies extreme suppression in the flat formula, while the resulting radius exceeds the horizon and the flat formula is no longer a reliable physical prediction. Full gravitational bounces are required.
 
 ## 5. Environmental sensitivity and fifth force
 
-For the same $f$ and $E_*$, requiring a shift $\Delta a = 0.01$ at mean cosmological matter density $\rho_m / E_*^4 \approx \Omega_m / \Omega_\Lambda \approx 0.459854$ gives:
+For the same $f$ and $E_{\ast}$, requiring a shift $\Delta a = 0.01$ at mean cosmological matter density $\rho_m / E_{\ast}^4 \approx \Omega_m / \Omega_\Lambda \approx 0.459854$ gives:
 
 $$
-M = f\sqrt{\frac{\rho_m / E_*^4}{\Delta a}} \approx 2.79\text{ meV}.
+M = f\sqrt{\frac{\rho_m / E_{\ast}^4}{\Delta a}} \approx 2.79\text{ meV}.
 $$
 
 With $A = \exp[\chi^2/(2M^2)]$ and $\chi = f y_+$,
@@ -85,7 +85,7 @@ $$
 
 Such a large coupling requires an extraordinarily stringent study of screening and experimental bounds. If $M = M_{\rm Pl}$, the same shift is $\Delta a \approx 1.31 \times 10^{-62}$, and environmental control via mean densities is negligible.
 
-Sign matters: $a$ grows when $\rho_*$ **increases** if $M^2 > 0$; emptying a region lowers $a$ and can push it toward instability, whereas concentrating matter does not automatically produce the same result. As $a \to 0$, local stability disappears, so evolution can be **classical**, not a tunneling fluctuation. Finite cavities require solving $\nabla^2\chi = \partial U_{\rm eff}/\partial\chi$ with gradient energy, critical size, and boundary conditions.
+Sign matters: $a$ grows when $\rho_{\ast}$ **increases** if $M^2 > 0$; emptying a region lowers $a$ and can push it toward instability, whereas concentrating matter does not automatically produce the same result. As $a \to 0$, local stability disappears, so evolution can be **classical**, not a tunneling fluctuation. Finite cavities require solving $\nabla^2\chi = \partial U_{\rm eff}/\partial\chi$ with gradient energy, critical size, and boundary conditions.
 
 ## 6. Persistence of the background
 
@@ -107,19 +107,19 @@ Future eternal inflation does not imply past geodesic completeness (Borde–Guth
 
 ## 7. Coldness of a dark-energy bubble
 
-Thermal energy density $u_{\rm rad} = (\pi^2/30) g_* T^4$ in natural units; thermalization efficiency $0 \le \xi \le 1$:
+Thermal energy density $u_{\rm rad} = (\pi^2/30) g_{\ast} T^4$ in natural units; thermalization efficiency $0 \le \xi \le 1$:
 
 $$
-T_{\rm RH} = \left(\frac{30\,\xi\,\Delta U}{\pi^2 g_*}\right)^{1/4}.
+T_{\rm RH} = \left(\frac{30\,\xi\,\Delta U}{\pi^2 g_{\ast}}\right)^{1/4}.
 $$
 
-With $g_* = 2$ for photons and $\xi = 1$:
+With $g_{\ast} = 2$ for photons and $\xi = 1$:
 - all of $u_\Lambda \to T \approx 28.866\text{ K}$;
 - $\Delta U = 0.002840086\,u_\Lambda \to T \approx 6.664\text{ K}$.
 
-A BBN history requires MeV-scale reheating temperatures. Barbieri et al. (2025) find $T_{\rm RH} > 5.96\text{ MeV}$ (95% CL) for the studied scenarios. For $g_* = 10.75$, $u_{\rm rad}/u_\Lambda \approx 1.771 \times 10^{38}$. Present dark energy alone cannot power the required hot Big Bang.
+A BBN history requires MeV-scale reheating temperatures. Barbieri et al. (2025) find $T_{\rm RH} > 5.96\text{ MeV}$ (95% CL) for the studied scenarios. For $g_{\ast} = 10.75$, $u_{\rm rad}/u_\Lambda \approx 1.771 \times 10^{38}$. Present dark energy alone cannot power the required hot Big Bang.
 
-ALTERNATIVE example, not a solution: a high-energy false vacuum $V_F \sim (10^{15}\text{ GeV})^4$; $H_F \approx 2.37 \times 10^{11}\text{ GeV} \approx 3.60 \times 10^{35}\text{ s}^{-1}$ and $T_{\rm max} \approx 4.18 \times 10^{14}\text{ GeV}$ with $g_* = 100$ and complete thermalization. The source of such a state, geometry, interior inflation, reheating, and energy conservation must all be specified.
+ALTERNATIVE example, not a solution: a high-energy false vacuum $V_F \sim (10^{15}\text{ GeV})^4$; $H_F \approx 2.37 \times 10^{11}\text{ GeV} \approx 3.60 \times 10^{35}\text{ s}^{-1}$ and $T_{\rm max} \approx 4.18 \times 10^{14}\text{ GeV}$ with $g_{\ast} = 100$ and complete thermalization. The source of such a state, geometry, interior inflation, reheating, and energy conservation must all be specified.
 
 ## 8. Two distinct problems: decay vs. manufacturing a universe
 

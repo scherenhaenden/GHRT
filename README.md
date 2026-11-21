@@ -47,7 +47,7 @@ $$
 $$
 
 For a perfect fluid, $T_E = -\rho_E + 3p_E$:
-- **Nonrelativistic dust ($p_E \approx 0$):** $T_E = -\rho_E$, yielding an effective potential $U_{\rm eff}(\chi;\rho_*) = U(\chi) + \rho_*[A(\chi) - 1]$ at fixed conserved auxiliary density $\rho_* = \rho_E/A = A^3\widetilde\rho$.
+- **Nonrelativistic dust ($p_E \approx 0$):** $T_E = -\rho_E$, yielding an effective potential $U_{\rm eff}(\chi;\rho_{\ast}) = U(\chi) + \rho_{\ast}[A(\chi) - 1]$ at fixed conserved auxiliary density $\rho_{\ast} = \rho_E/A = A^3\widetilde\rho$.
 - **Ideal radiation ($p_E = \rho_E/3$):** classical trace vanishes ($T_E = 0$), though quantum trace anomalies and Standard Model mass-threshold kicks $\Sigma(T)$ remain nonzero.
 - **Relativistic massive gas:** $|T_E|/\rho_E = \gamma^{-2}$ for an isotropic monoenergetic population.
 
@@ -60,7 +60,7 @@ This provides a covariant restatement of GHRT's original “Slip-Stream” intui
 To study first-order vacuum transitions rather than continuous symmetron symmetry breaking, the exploratory **GHRT-VPT** extension introduces a sixth-order effective potential ($y = \chi/f$):
 
 $$
-U_{\rm eff}(y;\rho_*) = U_0 + E_*^4\left[a(\rho_*)\frac{y^2}{2} - \frac{y^4}{4} + \frac{y^6}{6}\right], \qquad a(\rho_*) = a_0 + \frac{\rho_* f^2}{M^2 E_*^4},
+U_{\rm eff}(y;\rho_{\ast}) = U_0 + E_{\ast}^4\left[a(\rho_{\ast})\frac{y^2}{2} - \frac{y^4}{4} + \frac{y^6}{6}\right], \qquad a(\rho_{\ast}) = a_0 + \frac{\rho_{\ast} f^2}{M^2 E_{\ast}^4},
 $$
 
 and a two-field generalization $(\chi,\varphi)$ separating the cosmological sensor $\chi$ from a high-energy transition field $\varphi$ (see [docs/12-vpt-model-and-calculations.md](docs/12-vpt-model-and-calculations.md) and [docs/16-mathematical-audit-and-unification-architectures.md](docs/16-mathematical-audit-and-unification-architectures.md)).
@@ -71,9 +71,9 @@ All algebraic derivations and numerical scales are independently verified in [mo
 
 | Metric / Tension | Value (Toy Benchmark at $a=0.180$) | Scientific Implication |
 | :--- | :--- | :--- |
-| Dark-energy reference scale $E_*$ | $2.240365\text{ meV}$ | Calibrated to Planck 2018 $\Lambda$CDM ($H_0 = 67.4\text{ km/s/Mpc}$, $\Omega_\Lambda = 0.685$); **not** a GHRT prediction |
-| Degenerate wall tension $\sigma_{\rm deg}$ | $\frac{9}{64\sqrt{3}}\,f E_*^2 \approx 0.08119\,f E_*^2$ | Exact analytical integral at $a = 3/16$ |
-| Bounce action coeff. $B_{\rm TW}$ vs. exact $O(4)$ | $2.527 \times 10^5$ vs. $2.944 \times 10^5\,(f/E_*)^4$ | Thin-wall underestimates flat $O(4)$ action by $16.4\%$ ($-3.7\%$ in calibrated $f$); gravitational CDL bounce still required |
+| Dark-energy reference scale $E_{\ast}$ | $2.240365\text{ meV}$ | Calibrated to Planck 2018 $\Lambda$CDM ($H_0 = 67.4\text{ km/s/Mpc}$, $\Omega_\Lambda = 0.685$); **not** a GHRT prediction |
+| Degenerate wall tension $\sigma_{\rm deg}$ | $\frac{9}{64\sqrt{3}}\,f E_{\ast}^2 \approx 0.08119\,f E_{\ast}^2$ | Exact analytical integral at $a = 3/16$ |
+| Bounce action coeff. $B_{\rm TW}$ vs. exact $O(4)$ | $2.527 \times 10^5$ vs. $2.944 \times 10^5\,(f/E_{\ast})^4$ | Thin-wall underestimates flat $O(4)$ action by $16.4\%$ ($-3.7\%$ in calibrated $f$); gravitational CDL bounce still required |
 | Mass hierarchy $m_\chi / (\hbar H_\infty)$ | $4.36 \times 10^{30}$ | Single field cannot simultaneously slow-roll on Hubble scales and nucleate at $\text{meV}$ scales |
 | Fifth-force coupling $\beta$ ($\Delta a = 0.01$) | $1.13 \times 10^{29}$ (at $M = 2.79\text{ meV}$) | Severe fifth-force tension unless heavily screened; at $M = M_{\rm Pl}$, $\Delta a \approx 1.31 \times 10^{-62}$ |
 | Reheating energy deficit vs. BBN | $u_{\rm rad}(5.96\text{ MeV}) / u_\Lambda \approx 1.77 \times 10^{38}$ | Present dark energy ($T_{\Delta U} \approx 6.66\text{ K}$) cannot power a hot Big Bang; requires a high-energy sector |

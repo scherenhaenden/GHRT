@@ -6,10 +6,10 @@ With signature $(-,+,+,+)$, for a perfect fluid $T = -\rho + 3p$ ($\rho$ is ener
 
 A radiation-dominated environment does not automatically generate trace screening: quantum trace/thermal anomalies, nonrelativistic particles, and temperature corrections require separate treatment. Nor does it mean that electromagnetic waves “do not gravitate”: their tensor has zero trace but a nonzero stress-energy tensor.
 
-For dust, define $\rho_* = \rho_E / A = A^3 \widetilde\rho$ and $U_{\rm eff} = U + \rho_*[A - 1]$. If $A = \exp(\chi^2 / (2M^2))$, in the regime $\chi^2/M^2 \ll 1$:
+For dust, define $\rho_{\ast} = \rho_E / A = A^3 \widetilde\rho$ and $U_{\rm eff} = U + \rho_{\ast}[A - 1]$. If $A = \exp(\chi^2 / (2M^2))$, in the regime $\chi^2/M^2 \ll 1$:
 
 $$
-U_{\rm eff} \approx U + \rho_*\frac{\chi^2}{2M^2}.
+U_{\rm eff} \approx U + \rho_{\ast}\frac{\chi^2}{2M^2}.
 $$
 
 The symbols $\rho_m$ in earlier notes must be interpreted as the appropriate nonrelativistic auxiliary density, with declared units and frames; do not replace it with total radiation density.

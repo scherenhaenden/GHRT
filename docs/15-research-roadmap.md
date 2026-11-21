@@ -12,7 +12,7 @@ Fix whether Standard Model sectors couple conformally in a universal way and in 
 
 ## Stage 2 — Benchmark testing
 
-Use `models/vpt_benchmark.py` to verify extrema and scales. Run independent sweeps in $a$, $f/E_*$, $M$, and coupling terms; separate target-input rate from predicted rate. Build a thin-wall sensitivity test against a flat $O(4)$ bounce calculation.
+Use `models/vpt_benchmark.py` to verify extrema and scales. Run independent sweeps in $a$, $f/E_{\ast}$, $M$, and coupling terms; separate target-input rate from predicted rate. Build a thin-wall sensitivity test against a flat $O(4)$ bounce calculation.
 
 **Acceptance:** tested code and error plots/models, not only hand calculations.
 

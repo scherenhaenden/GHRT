@@ -74,18 +74,18 @@ Si \(T_{\rm E}\) se tratara como una fuente externa fija, integrar el término d
 
 ### Definición que se debe añadir
 
-> Para materia no relativista distinguimos la densidad física de Einstein, \(\rho_{\rm E}\), de la densidad auxiliar \(\rho_*=\rho_{\rm E}/A=A^3\widetilde\rho\), donde \(\widetilde\rho\) es la densidad de Jordan. Al variar el campo a distribución de partículas fijada, \(\rho_*\) se mantiene independiente de \(\chi\). El potencial efectivo que determina la fuerza escalar puede escribirse como
+> Para materia no relativista distinguimos la densidad física de Einstein, \(\rho_{\rm E}\), de la densidad auxiliar \(\rho_{\ast}=\rho_{\rm E}/A=A^3\widetilde\rho\), donde \(\widetilde\rho\) es la densidad de Jordan. Al variar el campo a distribución de partículas fijada, \(\rho_{\ast}\) se mantiene independiente de \(\chi\). El potencial efectivo que determina la fuerza escalar puede escribirse como
 >
 > \[
-> U_{\rm eff}(\chi;\rho_*)
-> =U(\chi)+\rho_*[A(\chi)-1].
+> U_{\rm eff}(\chi;\rho_{\ast})
+> =U(\chi)+\rho_{\ast}[A(\chi)-1].
 > \]
 >
 > En consecuencia,
 >
 > \[
 > U_{{\rm eff},\chi}
-> =U_{,\chi}+\rho_*A_{,\chi}
+> =U_{,\chi}+\rho_{\ast}A_{,\chi}
 > =U_{,\chi}+\alpha\rho_{\rm E}.
 > \]
 
@@ -93,37 +93,37 @@ Código:
 
 ~~~latex
 \[
-\rho_*=\frac{\rho_{\rm E}}{A}
+\rho_{\ast}=\frac{\rho_{\rm E}}{A}
       =A^3\widetilde{\rho},
 \qquad
-U_{\rm eff}(\chi;\rho_*)
-=U(\chi)+\rho_*\bigl[A(\chi)-1\bigr].
+U_{\rm eff}(\chi;\rho_{\ast})
+=U(\chi)+\rho_{\ast}\bigl[A(\chi)-1\bigr].
 \]
 \[
 U_{{\rm eff},\chi}
-=U_{,\chi}+\rho_*A_{,\chi}
+=U_{,\chi}+\rho_{\ast}A_{,\chi}
 =U_{,\chi}+\alpha\rho_{\rm E}.
 \]
 ~~~
 
-La resta de \(\rho_*\) elimina un término independiente de \(\chi\) **solo al calcular la fuerza escalar**. No elimina la energía de materia de la ecuación de Friedmann, ni implementa sequestering.
+La resta de \(\rho_{\ast}\) elimina un término independiente de \(\chi\) **solo al calcular la fuerza escalar**. No elimina la energía de materia de la ecuación de Friedmann, ni implementa sequestering.
 
 ### Ajuste en la sección 8
 
-Identificar la \(\rho\) de su potencial efectivo con \(\rho_*\), y escribir:
+Identificar la \(\rho\) de su potencial efectivo con \(\rho_{\ast}\), y escribir:
 
 ~~~latex
 \[
 U_{\rm eff}
 =U_0+\frac{1}{2}
-\left(\frac{\rho_*}{M^2}-\mu^2\right)\chi^2
+\left(\frac{\rho_{\ast}}{M^2}-\mu^2\right)\chi^2
 +\frac{\lambda}{4}\chi^4,
 \qquad
 \rho_{*,c}=\mu^2M^2.
 \]
 ~~~
 
-Se puede conservar el símbolo abreviado \(\rho\) si se declara expresamente que en esa sección representa \(\rho_*\). No hay que sustituir indiscriminadamente todas las densidades del documento.
+Se puede conservar el símbolo abreviado \(\rho\) si se declara expresamente que en esa sección representa \(\rho_{\ast}\). No hay que sustituir indiscriminadamente todas las densidades del documento.
 
 ### Ajuste en la sección 10
 
@@ -134,7 +134,7 @@ Declarar que las densidades que aparecen directamente en Friedmann son las de Ei
 \dot{\rho}_{\rm E}+3H\rho_{\rm E}
 =\alpha\dot{\chi}\rho_{\rm E},
 \qquad
-\dot{\rho}_*+3H\rho_*=0.
+\dot{\rho}_{\ast}+3H\rho_{\ast}=0.
 \]
 ~~~
 
@@ -156,11 +156,11 @@ El tratamiento de marcos y densidades puede contrastarse con las secciones 2 y 3
 > A(\chi)=\exp\{\varepsilon[1-\cos(\chi/f)]\}.
 > \]
 >
-> Para polvo, el potencial efectivo es \(U+\rho_*[A-1]\). Con \(\varepsilon>0\), \(\rho_*\ge0\) y \(\Lambda_\chi^4>0\), ambos términos tienen sus mínimos en \(\chi=2\pi n f\), con \(n\) entero. La densidad aumenta la curvatura alrededor de esos mínimos:
+> Para polvo, el potencial efectivo es \(U+\rho_{\ast}[A-1]\). Con \(\varepsilon>0\), \(\rho_{\ast}\ge0\) y \(\Lambda_\chi^4>0\), ambos términos tienen sus mínimos en \(\chi=2\pi n f\), con \(n\) entero. La densidad aumenta la curvatura alrededor de esos mínimos:
 >
 > \[
 > m_{\rm eff}^2
-> =\frac{\Lambda_\chi^4+\varepsilon\rho_*}{f^2}.
+> =\frac{\Lambda_\chi^4+\varepsilon\rho_{\ast}}{f^2}.
 > \]
 >
 > Por tanto, este ejemplo no produce una transición de restauración y ruptura de simetría al diluirse la materia. Además, \(\alpha=(\varepsilon/f)\sin(\chi/f)\) se anula en esos mínimos para cualquier densidad. Una activación ambiental de tipo symmetron requeriría otra elección de funciones o parámetros y un análisis explícito de mínimos, estabilidad y cargas escalares. La periodicidad conserva una simetría discreta; por sí sola no garantiza protección radiativa suficiente.
@@ -170,7 +170,7 @@ Código de las dos expresiones nuevas:
 ~~~latex
 \[
 m_{\rm eff}^2\big|_{\chi=2\pi n f}
-=\frac{\Lambda_\chi^4+\varepsilon\rho_*}{f^2},
+=\frac{\Lambda_\chi^4+\varepsilon\rho_{\ast}}{f^2},
 \qquad n\in\mathbb{Z}.
 \]
 \[
@@ -352,7 +352,7 @@ La lista de «27.1 Derivación analítica» empieza en 9 y termina en 16. Como p
 ### Lista de aceptación
 
 - [ ] La fuerza incluye \((1+m_{\rm eff}r)e^{-m_{\rm eff}r}\), o se declara expresamente el límite que permite simplificarla.
-- [ ] Las densidades \(\rho_{\rm E}\), \(\rho_*\) y \(\widetilde\rho\) están definidas y no se intercambian sin transformar.
+- [ ] Las densidades \(\rho_{\rm E}\), \(\rho_{\ast}\) y \(\widetilde\rho\) están definidas y no se intercambian sin transformar.
 - [ ] El potencial ambiental para polvo tiene derivada \(U_{,\chi}+\alpha\rho_{\rm E}\).
 - [ ] La resta constante en \(U_{\rm eff}\) no se presenta como eliminación de energía gravitante.
 - [ ] El ejemplo periódico con \(\varepsilon>0\) no se presenta como una transición symmetron ya obtenida.
