@@ -1,6 +1,8 @@
 # Granular Higgs Recoil Theory (GHRT)
 
-GHRT is a speculative research program about whether the physical vacuum can be described by a dynamical collective degree of freedom that responds to matter and may connect to the Higgs sector. The project is not an established theory, and the repository does not claim that GHRT explains dark energy, the cosmological constant, the Hubble tension, or the origin of time.
+GHRT is an **exploratory, unvalidated physics research program** investigating whether the physical vacuum can be described by a dynamical collective degree of freedom that responds to matter, connects to the Higgs sector, and admits environmental screening, vacuum-energy mechanisms, and an explicitly speculative extension called **GHRT-VPT** (Vacuum Phase Transitions). The project is not an established theory, and the repository does not claim that GHRT explains dark energy, the cosmological constant, the Hubble tension, or the origin of time.
+
+**Scientific status:** none of the proposed GHRT-specific dynamics has yet been shown to reproduce all precision tests or to outperform established cosmological models. Mathematical examples and benchmark values are *not* observational confirmations.
 
 ## The central idea
 
@@ -34,39 +36,61 @@ The research program asks whether one can build a consistent model that:
 3. keeps a cosmologically light mode stable against quantum corrections;
 4. connects nontrivially to the Higgs sector without contradicting particle-physics constraints;
 5. makes quantitative predictions for expansion, structure growth, lensing, and laboratory or astrophysical tests; and
-6. treats vacuum-energy degravitation or sequestering as a separate mechanism with its own action and consistency checks.
+6. treats vacuum-energy degravitation or sequestering—and any speculative GHRT-VPT vacuum-transition extension—as separate mechanisms with their own actions and consistency checks.
 
 These are open requirements, not achieved results. In particular, the conformal scalar-tensor core does not solve the cosmological-constant problem automatically. Screening does not establish viability, and a Higgs portal does not automatically protect an ultralight scalar mass.
 
 ## Scientific status and known limitations
 
-The material here is a set of research notes and candidate constructions. The symmetron, conformal scalar-tensor coupling, pseudo-Nambu-Goldstone potentials, degravitation, and vacuum sequestering all have prior literature. Any claim of GHRT novelty requires a comparison of explicit actions and observables with that literature.
+The material here is a set of research notes, audits, and candidate constructions. The symmetron, conformal scalar-tensor coupling, pseudo-Nambu-Goldstone potentials, degravitation, and vacuum sequestering all have prior literature. Any claim of GHRT novelty requires a comparison of explicit actions and observables with that literature.
 
-The main unresolved issues are radiative stability of $\chi$, compatibility of screening with cosmology and fifth-force bounds, a well-defined Higgs connection, a viable background and perturbation history, and a concrete treatment of vacuum energy. No complete parameter fit or validated GHRT-specific prediction is supplied here.
+The main unresolved issues are radiative stability of $\chi$ (including a ~30-order mass mismatch in the VPT toy benchmark), compatibility of screening with cosmology and fifth-force bounds, a well-defined Higgs connection (and CP/baryogenesis), a viable background and perturbation history, and a concrete treatment of vacuum energy. No complete parameter fit or validated GHRT-specific prediction is supplied here.
 
 ## Repository map
 
-- `docs/00-concept.md` — planned topic scaffold (heading only): purpose, scope, and epistemic status.
-- `docs/01-postulates.md` — planned topic scaffold (heading only): assumptions separated from derived consequences.
-- `docs/02-mathematical-framework.md` — planned topic scaffold (heading only): frames, action, equations, and conventions.
-- `docs/03-higgs-vacuum-sector.md` — planned topic scaffold (heading only): proposed relationship between $h$ and $\chi$.
-- `docs/04-trace-coupling.md` — planned topic scaffold (heading only): trace source and limits of the Slip-Stream analogy.
-- `docs/05-screening.md` — planned topic scaffold (heading only): symmetron benchmark and fifth-force questions.
-- `docs/06-vacuum-degravitation.md` — planned topic scaffold (heading only): distinct vacuum-energy proposals and open choices.
-- `docs/07-cosmology.md` — planned topic scaffold (heading only): background and perturbation observables still to calculate.
-- `docs/08-time-compton-phase.md` — planned topic scaffold (heading only): interpretation of matter phase along proper time.
-- `docs/09-observational-constraints.md` — planned topic scaffold (heading only): data and experimental tests to confront.
-- `docs/10-falsification-tests.md` — planned topic scaffold (heading only): conditions under which candidate models fail.
-- `docs/11-manual-correcciones-v0.1.md` — editorial and equation corrections for the master document.
-- `papers/literature-review.md` — literature review workspace (currently a heading-only scaffold).
-- `models/` — planned numerical implementations; currently no model code is present.
-- `notebooks/` — empty notebook scaffolds; no calculations are implemented yet.
-- `manuscript/GHRT.tex` — minimal LaTeX scaffold, not the source of the 36-page master PDF.
+- `docs/00-concept.md` — conceptual motivation, including the distinction between the author's intuition and scientific evidence.
+- `docs/01-postulates.md` — candidate hypotheses and their status.
+- `docs/02-mathematical-framework.md` — scalar-tensor action, conventions, and field/background equations.
+- `docs/03-higgs-vacuum-sector.md` — Higgs portals, dimensions, CP, and radiative stability.
+- `docs/04-trace-coupling.md` — conformal coupling and matter trace.
+- `docs/05-screening.md` — symmetron screening and fifth forces.
+- `docs/06-vacuum-degravitation.md` — the unsolved constant-vacuum gravitation problem.
+- `docs/07-cosmology.md` — accelerating expansion, false-vacuum volume, and daughter regions.
+- `docs/08-time-compton-phase.md` — proper time, phases, and limitations.
+- `docs/09-observational-constraints.md` — experimental and astronomical tests.
+- `docs/10-falsification-tests.md` — computational and empirical failure criteria.
+- `docs/11-manual-correcciones-v0.1.md` — preserved correction guidance (in Spanish) for the prior master document.
+- `docs/12-vpt-model-and-calculations.md` — VPT derivations, scales, toy benchmark, and gravitational follow-up.
+- `docs/13-intelligence-and-cosmic-continuity.md` — AI thought experiment, energy horizons, and information transfer.
+- `docs/14-audit-and-corrections-2026-11-21.md` — critical audit of claims and prior dialogue.
+- `docs/15-research-roadmap.md` — sequenced model-building work.
+- `docs/16-mathematical-audit-and-unification-architectures.md` — independent mathematical verification ($O(4)$ bounce check, benchmark audit), six structural hypothesis corrections (`S1`–`S6`), and four candidate unification architectures.
+- `papers/literature-review.md` — research references with primary links.
+- `models/vpt_benchmark.py` — reproducible standard-library benchmark and algebraic assertions.
+- `archive/` — preserved unedited historical source texts (in Spanish) and provenance index.
+- `notebooks/` — older empty Jupyter scaffolds; not evidence of executed calculations.
+- `manuscript/GHRT.tex` — minimal LaTeX scaffold, **not** the source for any prior master PDF.
 - `REPOSITORY_AUDIT.md` — tracked-content and publication audit.
 
-## Working with the repository
+## Provenance and preservation
 
-The repository is documentation-first at this stage. Numerical claims should include assumptions, units, provenance, and a reproducible derivation. Distinguish established results from candidate hypotheses and calculations that have not yet been performed. The current notebooks are empty and the LaTeX file is only a scaffold, so they cannot reproduce the master document or its equations.
+The prior v0.1 correction manual (`docs/11-manual-correcciones-v0.1.md`) and `archive/` texts are preserved as *source history*. The author's earlier master documents (v0.1/v0.1.1/v0.1.2) and the November 2026 chat addenda are not transcribed in full here; do not present this repository as a complete transcription of those PDFs. The documentation distinguishes user-origin intuition, working mathematical models, published findings, and unverified extrapolations.
+
+The two explanatory YouTube videos that motivated discussion are narrative prompts, **not primary physics references**:
+- https://www.youtube.com/watch?v=bpGum1z8MfA
+- https://www.youtube.com/watch?v=oRBu7wYuOSo
+
+## Reproduction and working with the repository
+
+Run the exploratory toy benchmark:
+
+```bash
+python3 models/vpt_benchmark.py
+```
+
+This checks the algebra of one intentionally tuned toy potential; it does not calculate a Coleman–De Luccia bounce, verify a theory of everything, or demonstrate an engineering route to a baby universe.
+
+Numerical claims should include assumptions, units, provenance, and a reproducible derivation. Distinguish established results from candidate hypotheses and calculations that have not yet been performed. The current notebooks are empty and the LaTeX file is only a scaffold, so they cannot reproduce the master document or its equations.
 
 ## License
 

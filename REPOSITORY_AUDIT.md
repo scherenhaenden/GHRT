@@ -30,3 +30,18 @@ The working notes explicitly distinguish established literature from GHRT hypoth
 - Keep source data and generated or licensed material out unless redistribution rights and provenance are documented.
 - Check `git status` and inspect staged diffs before every commit; never commit tokens, private keys, `.env` files, or personal data.
 - Record provenance and license for any imported paper, dataset, figure, or external code.
+
+
+## Addendum — 2026-11-21: GHRT-VPT research branch
+
+Repository metadata returned by GitHub during this revision identifies the repository visibility as **public**, regardless of the historical entry above about being private at initialization. Treat the present visibility as public and review future changes accordingly.
+
+Branch: research/ghrt-vpt-renovacion-cosmica-2026-11-21, derived from main. The prior manual and historical main files were preserved; no previously published GHRT master PDF is falsely represented as transcribed or regenerated.
+
+New material adds substantive research notes in docs/00–10, docs/12–15, an expanded literature review, a research-oriented README, and an algebraic Python benchmark in models/vpt_benchmark.py. These are exploratory candidate models and critiques, not validated physical predictions. The old Jupyter and LaTeX files remain scaffolds.
+
+Scientific cautions: tuned benchmark nucleation rate; 30-order field-mass mismatch; large unscreened fifth-force coupling or vanishing density response; dark-energy reheating energy deficit; CP baryogenesis not supplied by a real Higgs portal; distinction between descending true-vacuum bubble and creating a high-energy false-vacuum child; no demonstrated information transfer between spaces.
+
+Source provenance: November 2026 GHRT-VPT addendum, author–Gemini dialogue shared by the author, and independent mathematical audit in the related ChatGPT project conversation. The speculative cosmic-intelligence discussion was initiated by the **author** after viewing a science-fiction video. Sources are catalogued in papers/literature-review.md. No claim is made that all external master documents have been reproduced in this branch.
+
+The benchmark script has numerical assertions but is not a gravitational or observational validation. No CI workflow is supplied and the absent master manuscript remains outstanding.
