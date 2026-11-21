@@ -1,0 +1,1 @@
+# Degravitación del vacío
