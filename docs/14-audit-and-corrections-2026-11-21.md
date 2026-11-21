@@ -68,3 +68,5 @@ A $1\text{ g}$ projectile at $0.1c$ carries $\sim 4.53 \times 10^{11}\text{ J} \
 - **O6:** causality/entropy/information in a daughter universe.
 
 **Conclusion:** GHRT-VPT can formulate calculable questions, but there is currently no complete solution, predicted rates, distinctive observation, or demonstration of universe engineering. Historical constructibility percentages are not probabilities of truth.
+
+See `docs/16-mathematical-audit-and-unification-architectures.md` for the independent numerical verification (including the exact flat-space $O(4)$ bounce check), six structural corrections to the postulate set (`S1`–`S6`), and four symmetry-based unification architectures.

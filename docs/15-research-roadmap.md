@@ -39,3 +39,5 @@ Cosmological perturbations, CMB, BAO, growth, gravitational lensing, local fifth
 Only once an established daughter geometry exists: define a physical information channel with degrees of freedom, capacity, parent $\to$ daughter state map, observable recovery, entropy, and causality. Do not confuse transmission of global parameters with transfer of memory or personal continuity.
 
 The goal is **to discover failures early**, not to retroactively fit every phenomenon into GHRT.
+
+For the consolidated mathematical verification, structural hypothesis corrections (`S1`–`S6`), and candidate unification architectures (Scale-Invariant Higgs–Dilaton, Clock & Switch $\chi$–$\varphi$, 4-Form Sequestering, and Derivative/Disformal Couplings), see `docs/16-mathematical-audit-and-unification-architectures.md`.

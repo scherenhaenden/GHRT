@@ -64,6 +64,7 @@ The main unresolved issues are radiative stability of $\chi$ (including a ~30-or
 - `docs/13-intelligence-and-cosmic-continuity.md` — AI thought experiment, energy horizons, and information transfer.
 - `docs/14-audit-and-corrections-2026-11-21.md` — critical audit of claims and prior dialogue.
 - `docs/15-research-roadmap.md` — sequenced model-building work.
+- `docs/16-mathematical-audit-and-unification-architectures.md` — independent mathematical verification ($O(4)$ bounce check, benchmark audit), six structural hypothesis corrections (`S1`–`S6`), and four candidate unification architectures.
 - `papers/literature-review.md` — research references with primary links.
 - `models/vpt_benchmark.py` — reproducible standard-library benchmark and algebraic assertions.
 - `archive/` — preserved unedited historical source texts (in Spanish) and provenance index.
