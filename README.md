@@ -147,6 +147,8 @@ All technical claims in the documentation are categorized using:
 
 ## 6. Provenance & License
 
-The earlier v0.1 correction manual (`docs/11-manual-correcciones-v0.1.md`) and `archive/` texts are preserved as *source history*; this repository does not claim to be a complete transcription of the author's external master PDFs. The explanatory YouTube videos referenced in `docs/13` ([video 1](https://www.youtube.com/watch?v=bpGum1z8MfA), [video 2](https://www.youtube.com/watch?v=oRBu7wYuOSo)) are narrative prompts only, **not primary physics references**.
+**Origin of the intuition:** GHRT grew out of the author's early physical intuitions (from ages 4–6): (1) that no physical system can occupy a state of strictly zero motion or zero energy (motivated by noticing how a parked car still vibrates at idle and by the undefined ratio when comparing finite speeds to $0$), and (2) that smaller structures resist deformation and subdivision more strongly, requiring disproportionately higher energy and finer probes as scale decreases. Those motivating intuitions are historical background rather than formal derivations; the repository's equations test whether any covariant scalar-tensor or vacuum-transition dynamics can make parts of that intuition precise.
+
+The earlier v0.1 correction manual (`docs/11-manual-correcciones-v0.1.md`) and `archive/` texts are preserved as *source history*; this repository does not claim to be a complete transcription of the author's external master PDFs. External narrative videos referenced in [docs/13-intelligence-and-cosmic-continuity.md](docs/13-intelligence-and-cosmic-continuity.md) pertain only to that separate cosmic-continuity thought experiment, not to the core origin of GHRT.
 
 **License:** No license has been selected. The repository's public visibility does not grant third-party permission to reuse or redistribute its contents; licensing and attribution terms remain to be decided by the project owner.

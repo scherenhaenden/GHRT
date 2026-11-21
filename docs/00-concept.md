@@ -2,7 +2,7 @@
 
 **Status: exploratory research program; not a confirmed physical theory.**
 
-Granular Higgs Recoil Theory (GHRT) asks whether a scalar-field formulation can exist in which the material environment, the trace of the stress-energy tensor, and a possible coupling to the Higgs sector modify gravitational or cosmological responses. The words “granular”, “recoil”, and the image of an expansion tension describe the **original intuition**, not derived microphysical properties. No proven discrete spacetime or first-principles “recoil” force has been established here.
+Granular Higgs Recoil Theory (GHRT) asks whether a scalar-field formulation can exist in which the material environment, the trace of the stress-energy tensor, and a possible coupling to the Higgs sector modify gravitational or cosmological responses. The words “granular”, “recoil”, and the image of an expansion tension describe the **original intuition**—rooted in the author's early childhood reasoning (ages 4–6) that physical objects cannot possess strictly zero rest motion/energy (like a parked car vibrating at idle, or the undefined ratio of finite speed to zero) and that smaller structures require disproportionately higher energy and finer tools to break or probe—not derived microphysical properties. No proven discrete spacetime or first-principles “recoil” force has been established here.
 
 ## Five candidate cores
 
