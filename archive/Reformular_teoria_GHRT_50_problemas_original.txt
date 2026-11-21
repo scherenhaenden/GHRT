@@ -1,0 +1,247 @@
+Sí. Tomando GHRT como **hipótesis de trabajo** y no todavía como teorema demostrado, esta sería mi tabla atómica: cada problema separado hasta llegar a una posible solución matemática concreta.
+
+Los porcentajes no significan «probabilidad de que GHRT sea cierta». Indican cuánto veo actualmente de un **camino técnicamente plausible para formular y comprobar esa pieza**.
+
+| # | Parte de GHRT | Problema que hay que resolver | Posible resolución | Formalismo candidato | Viabilidad conceptual |
+|---:|---|---|---|---|---:|
+| 1 | Vacío no estéril | La energía de vacío calculada no puede gravitar normalmente | Separar energía absoluta del vacío de excitaciones gravitantes | Vacuum sequestering / degravitation | **80 %** |
+| 2 | Catástrofe del vacío | \(V_{\rm vac}\gg\rho_\Lambda\) | Cancelar/desgravitacionar específicamente el modo constante \(k=0\) | \(T_{\mu\nu}-\frac14g_{\mu\nu}\langle T\rangle\) | **75 %** |
+| 3 | \(G_{\rm eff}\to0\) | Un cutoff según «energía local» apagaría gravedad donde sabemos que existe | Reemplazar \(G(E)\) por respuesta dependiente del modo/escala | \(G_{\rm eff}(k)\) | **75 %** |
+| 4 | Higgs cosmológico | Higgs de 125 GeV es absurdamente rápido para cosmología | Introducir modo colectivo \(\chi\) asociado al estado del vacío/Higgs | EFT escalar | **85 %** |
+| 5 | Relajación lenta | \(\tau_H\sim10^{-27}s\), no Gyr | \(m_\chi\sim H_0\sim10^{-33}\) eV | Scalar dark energy | **80 %** |
+| 6 | Matter suppression | Hay que explicar por qué materia densa bloquea el campo | Potencial efectivo dependiente de densidad | Symmetron-like | **90 %** |
+| 7 | Umbral de densidad | Necesitamos transición definida | \(\rho_c=\mu^2M^2\) | Ruptura espontánea ambiental | **95 %** |
+| 8 | Universo temprano | \(\chi\) no debe dominar cuando \(\rho_m\) es enorme | \(\rho>\rho_c\Rightarrow\chi\simeq0\) | Screening | **90 %** |
+| 9 | Universo tardío | Campo debe activarse al diluirse materia | \(\rho<\rho_c\Rightarrow\chi\to\chi_{\min}\) | \(U_{\rm eff}(\chi,\rho)\) | **90 %** |
+| 10 | Energía oscura | Activación debe producir aceleración | Conseguir \(w_\chi<-1/3\) | Quintessence/symmetron modificado | **75 %** |
+| 11 | \(w\simeq-1\) | Debe parecerse muchísimo a \(\Lambda\)CDM hoy | Régimen slow-roll o mínimo móvil | \(\dot\chi^2\ll U(\chi)\) | **80 %** |
+| 12 | \(w(z)\) | Debe producir historia cosmológica observable | Resolver \(\chi(z)\) conjuntamente con Friedmann | ODE cosmológicas | **95 % formulable** |
+| 13 | Slip-Stream | \(\sigma(\gamma)\) explícita amenaza Lorentz | Eliminar dependencia directa de velocidad | Acoplamiento a \(T^\mu{}_\mu\) | **95 %** |
+| 14 | Materia lenta | Debe interactuar fuertemente | \(T=-\rho+3p\simeq-\rho\) | Scalar-tensor | **95 %** |
+| 15 | Materia relativista | Interacción debe disminuir | \(|T|/\rho\simeq m^2/E^2=\gamma^{-2}\) | Acoplamiento por traza | **95 %** |
+| 16 | Fotones | No deben sufrir fricción del vacío | Para radiación clásica \(T=0\) | Invariancia conforme | **95 %** |
+| 17 | Rayos cósmicos | No pueden perder energía continuamente contra la «rejilla» | No introducir drag; conservar interacciones CMB/EBL estándar | Propagación Lorentz-covariante | **95 %** |
+| 18 | Marco privilegiado | Una lattice espacial literal define reposo absoluto | Sustituir lattice por correlaciones covariantes | \(C(x,y)=F(\sigma/\ell_*^2)\) | **85 %** |
+| 19 | Granularidad | ¿Qué significa realmente «grano»? | Longitud de correlación, no celdas físicas | EFT / correladores | **80 %** |
+| 20 | Coarse-graining | Microestructura debe generar GR macroscópicamente | Integrar grados de libertad UV | EFT + RG | **70 %** |
+| 21 | Principio de equivalencia | Nueva fuerza puede hacer caer objetos diferente | Acoplamiento universal + screening | \(A(\chi)g_{\mu\nu}\) | **80 %** |
+| 22 | Quinta fuerza | \(\chi\) ultraligero normalmente produciría fuerza de largo alcance | Screening ambiental | Symmetron/chameleon/Vainshtein | **85 %** |
+| 23 | Sistema Solar | GR está medida con enorme precisión | \(\chi\) debe estar apantallado localmente | \(m_{\rm eff}(\rho)\) / coupling suppression | **85 %** |
+| 24 | Galaxias | Screening no debe destruir dinámica conocida | Calcular \(G_{\rm eff}(r,\rho)\) | Perturbaciones scalar-tensor | **70 %** |
+| 25 | Cúmulos | Diferentes ambientes podrían activar \(\chi\) de manera distinta | Soluciones ambientales | PDE \(\chi(\mathbf{x},t)\) | **75 %** |
+| 26 | Vacíos cósmicos | Lugar natural para máxima relajación | \(\rho\ll\rho_c\Rightarrow\chi\) activo | Environmental DE | **85 %** |
+| 27 | Backreaction | Inhomogeneidades pueden modificar expansión efectiva | Promediar \(T_{\mu\nu}^\chi\) y geometría | Buchert/EFT cosmológica | **60 %** |
+| 28 | Tensión \(H_0\) | Efectos locales conocidos parecen demasiado pequeños | Hacer que \(\chi\) cambie \(H(z)\), no solo calibradores locales | Friedmann modificado | **55 %** |
+| 29 | CMB | Nueva física no puede estropear recombinación | \(\chi\) prácticamente congelado/apagado a alto \(z\) | Screening temprano | **80 %** |
+| 30 | BAO | Distancias deben coincidir | Ajustar \(H(z)\) sin alterar excesivamente \(r_d\) | Solver cosmológico | **70 %** |
+| 31 | Crecimiento \(f\sigma_8\) | Escalar modifica formación de estructura | Elegir coupling/potencial que limite \(G_{\rm eff}\) | Perturbaciones lineales | **65 %** |
+| 32 | Lensing | Fotones y materia deben producir lensing correcto | Controlar potentials \(\Phi,\Psi\) | Scalar-tensor perturbations | **70 %** |
+| 33 | Ondas gravitacionales | Deben viajar prácticamente a \(c\) | Mantener sector tensorial Einstein-like | \(c_T=1\) | **95 %** |
+| 34 | Tiempo | «Higgs crea tiempo» es demasiado fuerte | Interpretar masa como reloj de fase | \(d\phi=mc^2d\tau/\hbar\) | **95 %** |
+| 35 | Tick fundamental | Compton parece candidato natural | \(\omega_C=mc^2/\hbar\) | Fase cuántica | **100 % como relación física** |
+| 36 | Fotón y tiempo | Fotón no tiene marco propio | Mantener \(d\tau=0\) en geodésica nula | Relatividad estándar | **100 %** |
+| 37 | Masa | Higgs no explica la mayor parte de masa hadrónica | Usar energía de reposo total, no solo Yukawa | QCD + Higgs | **100 % corrección** |
+| 38 | Higgs–\(\chi\) | ¿Por qué llamar Higgs al nuevo campo? | Construir portal real \(H^\dagger H\,f(\chi)\) | Higgs portal | **75 %** |
+| 39 | Naturalidad | \(m_\chi\sim10^{-33}\) eV recibe correcciones cuánticas enormes | Simetría protectora | shift symmetry / pseudo-Goldstone | **50 %** |
+| 40 | Radiative stability | Loops pueden destruir \(U(\chi)\) | Protección técnica del potencial | EFT simétrica | **50 %** |
+| 41 | Ghosts | Modificaciones gravitatorias pueden introducir grados de libertad inestables | Acción de segundo orden/bien degenerada | EFT estable | **90 % comprobable** |
+| 42 | Gradientes | \(c_s^2<0\) sería catastrófico | Exigir \(c_s^2>0\) | análisis perturbativo | **95 % comprobable** |
+| 43 | Hamiltoniano | Energía no debe quedar ilimitada inferiormente | Condiciones no-ghost | \(K>0\) | **95 % comprobable** |
+| 44 | Causalidad | Recoil no puede propagar información superluminal | Cono causal compatible con \(g_{\mu\nu}\) | EFT hiperbólica | **90 % comprobable** |
+| 45 | Conservación | Transferencia materia-\(\chi\) debe conservar energía total | \(\nabla_\mu(T_m^{\mu\nu}+T_\chi^{\mu\nu})=0\) | Difeomorfismo | **100 % formulable** |
+| 46 | Parámetros | Demasiados parámetros harían modelo infalsable | Reducir a \(\{\mu,M,\lambda,\beta,\ldots\}\) | Minimal EFT | **85 %** |
+| 47 | Predicción propia | Si reproduce exactamente \(\Lambda\)CDM no aporta prueba | Predecir \(w(z)\), screening o crecimiento específico | observables GHRT | **80 %** |
+| 48 | Falsabilidad | Necesitamos saber cómo matar GHRT | Definir regiones excluidas antes de fitting | Bayesian/model comparison | **100 %** |
+| 49 | Relación con GR | Debe recuperar Einstein en régimen probado | \(\chi\to\) const., \(\alpha\to0\) | límite GR | **95 %** |
+| 50 | Relación con SM | No puede cambiar arbitrariamente masas conocidas | Portal extremadamente controlado | SM + EFT | **70 %** |
+
+Lo interesante aparece al reducir esos **50 problemas**. En realidad no necesitamos 50 mecanismos distintos. Muchas filas pueden salir de apenas cinco estructuras.
+
+\[
+\boxed{\textbf{I. Acoplamiento ambiental}}
+\]
+
+\[
+\Box\chi
+=
+U_{,\chi}-\alpha(\chi)T,
+\qquad
+T=T^\mu{}_\mu.
+\]
+
+Esto potencialmente resuelve de una vez **6–17, 21–26**. La misma cantidad \(T\) determina cuándo la materia afecta al campo y produce de manera natural el comportamiento relativista que buscábamos:
+
+\[
+\frac{|T|}{\rho}\rightarrow
+\begin{cases}
+1,&v\ll c\\[2mm]
+\gamma^{-2},&v\rightarrow c\\[2mm]
+0,&\text{radiación}
+\end{cases}
+\]
+
+Eso me parece actualmente la pieza más fuerte de la reconstrucción.
+
+\[
+\boxed{\textbf{II. Potencial ambiental}}
+\]
+
+Podemos comenzar con algo extremadamente pequeño:
+
+\[
+U_{\rm eff}(\chi,\rho)
+=
+U_0+
+\frac12
+\left(
+\frac{\rho}{M^2}-\mu^2
+\right)\chi^2
++
+\frac{\lambda}{4}\chi^4.
+\]
+
+Entonces aparece automáticamente
+
+\[
+\rho_c=\mu^2M^2.
+\]
+
+Y tenemos dos fases:
+
+\[
+\rho>\rho_c
+\Rightarrow
+\chi=0
+\]
+
+y
+
+\[
+\rho<\rho_c
+\Rightarrow
+\chi^2=
+\frac{\mu^2-\rho/M^2}{\lambda}.
+\]
+
+Esto captura matemáticamente tu idea original del universo temprano comprimiendo/suprimiendo el estado del vacío y el universo tardío liberándolo.
+
+\[
+\boxed{\textbf{III. Desgravitación}}
+\]
+
+No:
+
+\[
+G(E\rightarrow0)\rightarrow0.
+\]
+
+Sino algo del tipo
+
+\[
+\boxed{
+\mathcal G(k=0)\rightarrow0
+}
+\]
+
+para la componente absolutamente constante del vacío, mientras
+
+\[
+\mathcal G(k>0)\simeq G_N.
+\]
+
+Así una estrella continúa gravitando perfectamente aunque esté rodeada de espacio casi vacío.
+
+\[
+\boxed{\textbf{IV. Higgs portal}}
+\]
+
+Aquí está una de las preguntas fundamentales que todavía no hemos resuelto.
+
+Si queremos que siga llamándose realmente **Granular Higgs Recoil Theory** y no simplemente otra teoría scalar-tensor, necesitamos demostrar una conexión física entre \(\chi\) y el Higgs:
+
+\[
+\mathcal L_{\rm portal}
+=
+-\lambda_{H\chi}
+H^\dagger H\,F(\chi).
+\]
+
+Después de ruptura electrodébil,
+
+\[
+H=
+\frac1{\sqrt2}
+\begin{pmatrix}
+0\\
+v+h
+\end{pmatrix},
+\]
+
+y por tanto
+
+\[
+H^\dagger H=\frac{(v+h)^2}{2}.
+\]
+
+Eso proporciona un mecanismo real mediante el cual el estado colectivo \(\chi\) puede estar relacionado con el sector Higgs.
+
+**Esta fila es crítica.** Sin ella, la teoría que estamos construyendo puede ser interesante, pero el Higgs se vuelve casi decorativo.
+
+Y finalmente:
+
+\[
+\boxed{\textbf{V. Protección cuántica}}
+\]
+
+Este me parece ahora mismo **el problema teórico más difícil de toda GHRT**.
+
+Necesitamos algo con escala
+
+\[
+m_\chi\sim10^{-33}\ {\rm eV}
+\]
+
+interactuando de alguna manera con un sector que contiene
+
+\[
+m_H\sim125\ {\rm GeV}.
+\]
+
+La separación es monstruosa:
+
+\[
+\frac{m_H}{m_\chi}\sim10^{44}.
+\]
+
+Los loops cuánticos tenderían a empujar la masa de \(\chi\) hacia arriba.
+
+Por eso probablemente necesitaríamos una simetría:
+
+\[
+\chi\rightarrow\chi+C
+\]
+
+aproximada, haciendo que \(\chi\) sea algo parecido a un pseudo-Goldstone. Entonces una masa extremadamente pequeña puede estar técnicamente protegida.
+
+Y aquí está mi valoración global después de atomizarlo:
+
+| Bloque fundamental | Estado |
+|---|---:|
+| Covariancia relativista | 🟢 **90 %** |
+| Slip-Stream reformulado | 🟢 **95 %** |
+| Matter-induced suppression | 🟢 **90 %** |
+| Screening local | 🟢 **85 %** |
+| Relajación cosmológica | 🟢 **80 %** |
+| Vacuum degravitation | 🟡 **70 %** |
+| Tiempo/Compton reinterpretado | 🟢 **95 %** |
+| Granularidad covariante | 🟡 **75 %** |
+| Conexión física real con Higgs | 🟡 **60 %** |
+| Hubble tension | 🟠 **50 %** |
+| Naturalidad cuántica | 🔴 **40 %** |
+| Ajuste simultáneo CMB+BAO+SN+LSS | 🟠 **45 %** |
+| **GHRT como teoría matemática consistente** | **~70 % construible** |
+| **GHRT como descripción correcta de nuestro universo** | **❓ todavía desconocido** |
+
+La distinción de las dos últimas filas es importantísima. Creo que tenemos un camino bastante razonable para convertir tus intuiciones en **una teoría matemática internamente seria y falsable**. Eso no implica que la naturaleza la haya elegido.
+
+El cuello de botella ya no es el Slip-Stream —creo que \(T^\mu{}_\mu\) lo mejora radicalmente— ni siquiera matter suppression. **El monstruo ahora es explicar por qué existe un modo cosmológico ultraligero conectado al Higgs sin que las correcciones cuánticas lo destruyan.** Si encontramos una construcción convincente para las filas 38–40, GHRT da un salto cualitativo enorme.
